@@ -1,39 +1,100 @@
 {
-  "$schema": "https://schema.openspace.host/v1/site.json",
   "title": "omniharmonic",
+  "tagline": "Explore regenerative systems and participatory design with Benjamin Life, focusing on civic innovation and transformative collaboration.",
   "nav": [
     {
       "type": "page",
-      "page": "pg_rhe8s6g9x4",
-      "label": "Home"
+      "page": "pg_d0347mr8wz",
+      "label": "about"
+    },
+    {
+      "type": "link",
+      "label": "wiki",
+      "href": "https://wiki.omniharmonic.com",
+      "newTab": true
+    },
+    {
+      "type": "link",
+      "label": "writing",
+      "href": "https://omniharmonic.substack.com",
+      "newTab": true
+    },
+    {
+      "type": "page",
+      "page": "pg_69y8wvk7ys",
+      "label": "research"
+    },
+    {
+      "type": "link",
+      "label": "code",
+      "href": "https://github.com/omniharmonic",
+      "newTab": true
+    },
+    {
+      "type": "page",
+      "page": "pg_1d5bsjs3r6",
+      "label": "art"
+    },
+    {
+      "type": "button",
+      "label": "collaborate",
+      "link": {
+        "type": "email",
+        "email": "synergy@benjaminlife.one"
+      },
+      "style": "primary"
     }
   ],
   "header": {
     "variant": "classic-left",
-    "sticky": false,
-    "transparentOnHero": false,
-    "mobileMenu": "slide"
+    "sticky": true,
+    "transparentOnHero": true,
+    "mobileMenu": "fullscreen"
   },
   "footer": {
-    "id": "sec_472kh13nb0",
+    "id": "sec_c48s24rv1w",
     "layout": {
       "mode": "stack",
       "columns": {
         "d": [
+          2,
+          3,
+          4,
+          3
+        ],
+        "m": [
           12
         ]
       },
       "align": "center"
     },
     "style": {
-      "colorTheme": "light",
-      "padding": {
-        "d": "md"
+      "colorTheme": "dark",
+      "background": {
+        "type": "color",
+        "color": "#0f3a48"
       }
     },
     "blocks": [
       {
-        "id": "blk_83e1cytq7x",
+        "id": "blk_gef9vf8ch7",
+        "type": "image",
+        "v": 1,
+        "fields": {
+          "image": {
+            "src": "media/2026/10/the-arc-3-white-small-sh1b.webp",
+            "alt": "",
+            "width": 540,
+            "height": 540,
+            "mediaId": "med_sh1bf081e4"
+          },
+          "aspect": "original",
+          "lightbox": false
+        },
+        "column": 0
+      },
+      {
+        "id": "blk_krztnws0fr",
         "type": "text",
         "v": 1,
         "fields": {
@@ -45,15 +106,141 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "omniharmonic"
+                    "text": "@omniharmonic"
                   }
                 ]
               }
             ]
           }
-        }
+        },
+        "style": {
+          "align": {
+            "d": "center"
+          }
+        },
+        "column": 1
+      },
+      {
+        "id": "blk_vfswtc6cw6",
+        "type": "text",
+        "v": 1,
+        "fields": {
+          "content": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "about · "
+                  },
+                  {
+                    "type": "text",
+                    "text": "writing",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "https://omniharmonic.substack.com",
+                          "newTab": true
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " · research · "
+                  },
+                  {
+                    "type": "text",
+                    "text": "code",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "https://github.com/omniharmonic",
+                          "newTab": true
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " · "
+                  },
+                  {
+                    "type": "text",
+                    "text": "art",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "/art/"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "style": {
+          "align": {
+            "d": "center"
+          }
+        },
+        "column": 2
+      },
+      {
+        "id": "blk_t8x0csc4ea",
+        "type": "social-links",
+        "v": 1,
+        "fields": {
+          "source": "site",
+          "profiles": [
+            {
+              "network": "instagram",
+              "url": "https://instagram.com/juniperyoga"
+            },
+            {
+              "network": "youtube",
+              "url": "https://youtube.com/@juniperyoga"
+            },
+            {
+              "network": "email",
+              "url": "mailto:hello@juniperyoga.com"
+            }
+          ]
+        },
+        "column": 3
       }
-    ]
+    ],
+    "label": "Footer"
   },
-  "locale": "en"
+  "social": [
+    {
+      "network": "linkedin",
+      "url": "https://www.linkedin.com/in/benjamin-life"
+    }
+  ],
+  "seo": {
+    "titleTemplate": "%s — omniharmonic",
+    "description": "Explore regenerative systems and participatory design with Benjamin Life, focusing on civic innovation and transformative collaboration.",
+    "image": "media/2026/10/the-arc-3-copy-zc55.webp"
+  },
+  "locale": "en-US",
+  "integrations": {
+    "analytics": false,
+    "bookingUrl": null,
+    "stripeConnected": false
+  },
+  "redirects": [
+    {
+      "from": "/home",
+      "to": "/",
+      "status": 301
+    }
+  ]
 }

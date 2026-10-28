@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "score": 71,
+  "strict": 71,
+  "scorer": "v3.1-corrected",
+  "before": 68,
+  "changes": [
+    "h1: 149.1px, 91.6px on phones, tracking -0.03em",
+    "section padding 88px",
+    "text on light sections #000000, as on the original (2 of 2 sections)",
+    "heading on light sections #0f3a48, as on the original (1 of 2 sections)",
+    "/research: section 1 \"Published Research\" recreated as a custom component",
+    "h2: 19.5px, 86.2px on phones, tracking -0.03em"
+  ],
+  "strictBefore": 67,
+  "withoutComponents": 70,
+  "withComponents": 70,
+  "pages": [
+    {
+      "path": "/",
+      "device": "desktop",
+      "score": 69,
+      "strict": 65,
+      "corrections": [
+        "The new site's navigation sits in a header themed \"brand\" (os-theme-brand): read as navigation, not as a logo."
+      ],
+      "before": 66,
+      "strictBefore": 63,
+      "image": "thumb-home-d.jpg",
+      "differs": [
+        "Heading 1 size",
+        "Background",
+        "Columns"
+      ]
+    },
+    {
+      "path": "/",
+      "device": "phone",
+      "score": 61,
+      "strict": 61,
+      "before": 61,
+      "strictBefore": 61,
+      "image": "thumb-home-m.jpg",
+      "differs": [
+        "Heading 1 size",
+        "Background",
+        "Columns"
+      ]
+    },
+    {
+      "path": "/about",
+      "device": "desktop",
+      "score": 88,
+      "strict": 88,
+      "before": 84,
+      "strictBefore": 84,
+      "image": "thumb-about-d.jpg",
+      "differs": [
+        "Columns",
+        "Image placement",
+        "Height"
+      ]
+    },
+    {
+      "path": "/about",
+      "device": "phone",
+      "score": 79,
+      "strict": 79,
+      "before": 77,
+      "strictBefore": 77,
+      "image": "thumb-about-m.jpg",
+      "differs": [
+        "Heading 1 size",
+        "Heading",
+        "Section padding"
+      ]
+    },
+    {
+      "path": "/art",
+      "device": "desktop",
+      "score": 61,
+      "strict": 61,
+      "before": 61,
+      "strictBefore": 61,
+      "image": "thumb-art-d.jpg",
+      "differs": [
+        "Background",
+        "Heading",
+        "Heading 2: present"
+      ]
+    },
+    {
+      "path": "/art",
+      "device": "phone",
+      "score": 64,
+      "strict": 64,
+      "before": 55,
+      "strictBefore": 55,
+      "image": "thumb-art-m.jpg",
+      "differs": [
+        "Background",
+        "Heading 2: present",
+        "Section padding"
+      ]
+    },
+    {
+      "path": "/research",
+      "device": "desktop",
+      "score": 93,
+      "strict": 93,
+      "before": 75,
+      "strictBefore": 75,
+      "image": "thumb-research-d.jpg",
+      "differs": [
+        "Image crop"
+      ]
+    },
+    {
+      "path": "/research",
+      "device": "phone",
+      "score": 53,
+      "strict": 53,
+      "before": 64,
+      "strictBefore": 64,
+      "image": "thumb-research-m.jpg",
+      "differs": [
+        "Heading 2 size",
+        "Body text size",
+        "Heading"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source": "import",
+  "from": "Squarespace",
+  "items": [
+    {
+      "id": "domain",
+      "kind": "domain",
+      "title": "Use omniharmonic.com for your new site",
+      "detail": "Your new site is live on a free address. When you're happy with it, we'll help you point omniharmonic.com at it — your old site keeps working until then.",
+      "status": "todo"
+    }
+  ]
+}

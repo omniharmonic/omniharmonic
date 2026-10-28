@@ -1,17 +1,140 @@
 {
-  "$schema": "https://schema.openspace.host/v1/styles.json",
   "choices": {
     "palette": {
-      "brand": "oklch(0.45 0.05 250)",
-      "neutral": "warm",
+      "brand": "#0f3a48",
+      "neutral": "pure",
       "contrast": "standard",
-      "source": "curated"
+      "source": "brand"
     },
-    "pairing": "fraunces-hanken",
+    "pairing": "instrument",
     "density": "comfortable",
-    "shape": "soft",
+    "shape": "sharp",
     "buttons": "solid",
     "motion": "subtle",
-    "imageTreatment": "none"
+    "imageTreatment": "none",
+    "typography": {
+      "heading": {
+        "family": "Instrument Serif",
+        "category": "serif",
+        "weights": [
+          400
+        ]
+      },
+      "body": {
+        "family": "Public Sans",
+        "category": "sans-serif",
+        "weights": [
+          400,
+          600
+        ]
+      },
+      "scale": {
+        "h1": {
+          "size": 149.1,
+          "sizeMobile": 91.6,
+          "lineHeight": 1.4,
+          "letterSpacing": -0.03,
+          "case": "none",
+          "weight": 400
+        },
+        "h2": {
+          "size": 19.5,
+          "sizeMobile": 86.2,
+          "lineHeight": 1.04,
+          "letterSpacing": -0.03,
+          "case": "none",
+          "weight": 400
+        },
+        "body": {
+          "size": 16,
+          "sizeMobile": 16,
+          "lineHeight": 1.8,
+          "letterSpacing": 0,
+          "case": "none"
+        },
+        "h3": {
+          "size": 17.8,
+          "lineHeight": 1.16,
+          "letterSpacing": 0,
+          "case": "none",
+          "font": "heading",
+          "weight": 400
+        },
+        "h4": {
+          "size": 17,
+          "lineHeight": 1.23,
+          "letterSpacing": 0,
+          "case": "none",
+          "font": "heading",
+          "weight": 400
+        },
+        "display": {
+          "size": 137,
+          "sizeMobile": 91.6,
+          "lineHeight": 1.4,
+          "letterSpacing": -0.03,
+          "case": "none",
+          "weight": 400
+        },
+        "lead": {
+          "size": 41.9,
+          "sizeMobile": 32.2,
+          "lineHeight": 1.32,
+          "letterSpacing": -0.03,
+          "case": "none",
+          "font": "heading"
+        },
+        "small": {
+          "size": 14.3,
+          "lineHeight": 1.8,
+          "letterSpacing": 0,
+          "case": "none"
+        },
+        "button": {
+          "size": 16,
+          "sizeMobile": 16,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.03,
+          "case": "none",
+          "weight": 400,
+          "font": "body"
+        },
+        "nav": {
+          "size": 16,
+          "lineHeight": 1.8,
+          "letterSpacing": -0.02,
+          "case": "none",
+          "weight": 400,
+          "font": "body"
+        },
+        "wordmark": {
+          "size": 16,
+          "sizeMobile": 16,
+          "lineHeight": 1.8,
+          "letterSpacing": -0.02,
+          "case": "none",
+          "weight": 400,
+          "font": "body"
+        }
+      }
+    },
+    "layout": {
+      "sectionPadding": 88,
+      "sectionPaddingMobile": 55
+    }
+  },
+  "overrides": {
+    "color": {
+      "light": {
+        "text": {
+          "$type": "color",
+          "$value": "#000000"
+        },
+        "heading": {
+          "$type": "color",
+          "$value": "#0f3a48"
+        }
+      }
+    }
   }
 }

@@ -1,63 +1,47 @@
 {
-  "$schema": "https://schema.openspace.host/v1/page.json",
-  "id": "pg_rhe8s6g9x4",
+  "id": "pg_vhm10zy3tw",
   "title": "Home",
   "slug": "",
   "seo": {
-    "title": null,
-    "description": "omniharmonic is being set up.",
-    "noindex": true
+    "title": "omniharmonic | activate and harmonize",
+    "description": "Explore regenerative systems and participatory design with Benjamin Life, focusing on civic innovation and transformative collaboration.",
+    "image": "media/2026/10/the-arc-3-copy-zc55.webp"
   },
   "sections": [
     {
-      "id": "sec_08t7s8qh4n",
+      "id": "sec_54sw9p75e3",
       "layout": {
-        "mode": "stack",
-        "columns": {
-          "d": [
-            12
-          ]
+        "mode": "grid",
+        "rows": {
+          "d": 1,
+          "m": 1
         },
-        "align": "center",
-        "width": "narrow"
-      },
-      "style": {
-        "colorTheme": "light",
-        "padding": {
-          "d": "xl",
-          "m": "lg"
-        },
-        "minHeight": {
-          "d": "70vh"
-        }
-      },
-      "blocks": [
-        {
-          "id": "blk_2v0cxee36p",
-          "type": "text",
-          "v": 1,
-          "fields": {
-            "content": {
-              "type": "doc",
-              "content": [
-                {
-                  "type": "heading",
-                  "attrs": {
-                    "level": 1
-                  },
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "omniharmonic"
-                    }
-                  ]
-                }
-              ]
+        "items": {
+          "blk_qechc0d4qp": {
+            "d": {
+              "x": 1,
+              "y": 1,
+              "w": 24,
+              "h": 1,
+              "z": 1
+            },
+            "m": {
+              "x": 1,
+              "y": 1,
+              "w": 8,
+              "h": 1,
+              "z": 1
             }
           }
         },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "brand"
+      },
+      "blocks": [
         {
-          "id": "blk_pa4a22nqhx",
+          "id": "blk_qechc0d4qp",
           "type": "text",
           "v": 1,
           "fields": {
@@ -69,7 +53,1420 @@
                   "content": [
                     {
                       "type": "text",
-                      "text": "This site is being set up. Please check back soon."
+                      "text": "I seem to be a verb · I seem to be a verb · I seem to be a verb ·"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_hwp6dwac4w",
+      "layout": {
+        "mode": "grid",
+        "rows": {
+          "d": 21,
+          "m": 56
+        },
+        "items": {
+          "blk_qp0fggjh1b": {
+            "d": {
+              "x": 12,
+              "y": 2,
+              "w": 2,
+              "h": 20,
+              "z": 7
+            },
+            "m": {
+              "x": 1,
+              "y": 1,
+              "w": 8,
+              "h": 24,
+              "z": 7
+            }
+          },
+          "blk_fjztsxj8ey": {
+            "d": {
+              "x": 12,
+              "y": 3,
+              "w": 2,
+              "h": 19,
+              "z": 9
+            },
+            "m": {
+              "x": 1,
+              "y": 26,
+              "w": 8,
+              "h": 23,
+              "z": 9
+            }
+          },
+          "blk_f90qxp27s4": {
+            "d": {
+              "x": 10,
+              "y": 9,
+              "w": 6,
+              "h": 6,
+              "z": 8
+            },
+            "m": {
+              "x": 1,
+              "y": 50,
+              "w": 8,
+              "h": 7,
+              "z": 8
+            }
+          },
+          "blk_tdmp5yx4j9": {
+            "d": {
+              "x": 7,
+              "y": 11,
+              "w": 11,
+              "h": 1,
+              "z": 6
+            },
+            "m": {
+              "x": 1,
+              "y": 55,
+              "w": 8,
+              "h": 1,
+              "z": 6
+            }
+          },
+          "blk_t2zc19k3gn": {
+            "d": {
+              "x": 8,
+              "y": 11,
+              "w": 8,
+              "h": 1,
+              "z": 7
+            },
+            "m": {
+              "x": 1,
+              "y": 55,
+              "w": 8,
+              "h": 1,
+              "z": 7
+            }
+          }
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "dark",
+        "background": {
+          "type": "image",
+          "src": "media/2026/10/stocksy-comp-5804492-compressed-0ndp.webp",
+          "overlay": {
+            "color": "#000000",
+            "opacity": 0.7
+          }
+        },
+        "minHeight": {
+          "d": "40vh"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_qp0fggjh1b",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "writing",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://omniharmonic.substack.com",
+                            "newTab": true
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_fjztsxj8ey",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "research",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "/research/"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_f90qxp27s4",
+          "type": "image",
+          "v": 1,
+          "fields": {
+            "image": {
+              "src": "media/2026/10/the-arc-3-white-j0ww.webp",
+              "alt": "Geometric pattern with a circle, four petal shapes in center, and radial lines dividing sections on a black background.",
+              "width": 2400,
+              "height": 2400,
+              "mediaId": "med_j0wwjpf36k"
+            },
+            "aspect": "original",
+            "lightbox": false
+          }
+        },
+        {
+          "id": "blk_tdmp5yx4j9",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "code",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://github.com/omniharmonic",
+                            "newTab": true
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "style": {
+            "align": {
+              "d": "end"
+            }
+          }
+        },
+        {
+          "id": "blk_t2zc19k3gn",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "art",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "/art/"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_mdc6pnh08y",
+      "layout": {
+        "mode": "grid",
+        "rows": {
+          "d": 3,
+          "m": 7
+        },
+        "items": {
+          "blk_gy3ky3nt3p": {
+            "d": {
+              "x": 1,
+              "y": 1,
+              "w": 5,
+              "h": 2,
+              "z": 3
+            },
+            "m": {
+              "x": 1,
+              "y": 1,
+              "w": 8,
+              "h": 2,
+              "z": 3
+            }
+          },
+          "blk_0ee9fy3wj0": {
+            "d": {
+              "x": 7,
+              "y": 1,
+              "w": 12,
+              "h": 3,
+              "z": 4
+            },
+            "m": {
+              "x": 1,
+              "y": 4,
+              "w": 8,
+              "h": 4,
+              "z": 4
+            }
+          }
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "brand",
+        "padding": {
+          "d": "md",
+          "m": "sm"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_gy3ky3nt3p",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 1,
+                    "preset": "h4"
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Hello friend,"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_0ee9fy3wj0",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Benjamin Life is a civic innovator, researcher, and artist working at the intersection of regenerative crypto-economics, bioregional coordination, and participatory systems design. His work explores the mythic and material dimensions of systemic transformation, cultivating anti-rivalrous infrastructures that empower communities to co-create shared abundance, resilience, and mutual care."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_7y6aammhsw",
+      "layout": {
+        "mode": "grid",
+        "rows": {
+          "d": 1,
+          "m": 1
+        },
+        "items": {
+          "blk_mmp421x4k5": {
+            "d": {
+              "x": 1,
+              "y": 1,
+              "w": 24,
+              "h": 1,
+              "z": 1
+            },
+            "m": {
+              "x": 1,
+              "y": 1,
+              "w": 8,
+              "h": 1,
+              "z": 1
+            }
+          }
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "brand"
+      },
+      "blocks": [
+        {
+          "id": "blk_mmp421x4k5",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "a post-tragic, protopian audacity · a post-tragic, protopian audacity · a post-tragic, protopian audacity ·"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_wdmnem3yav",
+      "layout": {
+        "mode": "grid",
+        "rows": {
+          "d": 28,
+          "m": 38
+        },
+        "items": {
+          "blk_w8d2swhs30": {
+            "d": {
+              "x": 1,
+              "y": 1,
+              "w": 11,
+              "h": 28,
+              "z": 1
+            },
+            "m": {
+              "x": 1,
+              "y": 1,
+              "w": 8,
+              "h": 18,
+              "z": 1
+            }
+          },
+          "blk_s7hm7h69ms": {
+            "d": {
+              "x": 13,
+              "y": 1,
+              "w": 7,
+              "h": 2,
+              "z": 4
+            },
+            "m": {
+              "x": 1,
+              "y": 20,
+              "w": 8,
+              "h": 2,
+              "z": 4
+            }
+          },
+          "blk_wkfdwbeb20": {
+            "d": {
+              "x": 13,
+              "y": 4,
+              "w": 8,
+              "h": 12,
+              "z": 3
+            },
+            "m": {
+              "x": 1,
+              "y": 23,
+              "w": 8,
+              "h": 14,
+              "z": 3
+            }
+          },
+          "blk_azjrq44e3q": {
+            "d": {
+              "x": 13,
+              "y": 17,
+              "w": 7,
+              "h": 1,
+              "z": 4
+            },
+            "m": {
+              "x": 1,
+              "y": 38,
+              "w": 8,
+              "h": 1,
+              "z": 4
+            }
+          }
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "brand",
+        "padding": {
+          "d": "md",
+          "m": "sm"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_w8d2swhs30",
+          "type": "image",
+          "v": 1,
+          "fields": {
+            "image": {
+              "src": "media/2026/10/unsplash-image-so0alfyshtg-cf6t.webp",
+              "alt": "",
+              "width": 2400,
+              "height": 1715,
+              "mediaId": "med_cf6th59j60"
+            },
+            "aspect": "original",
+            "lightbox": false
+          }
+        },
+        {
+          "id": "blk_s7hm7h69ms",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 4
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Together, we can"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_wkfdwbeb20",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Cultivate the infrastructure of the next civilization.",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "I support coalitions, communities, and projects in identifying leverage points, architecting protocols, and forming synergistic alliances. From DAO ecosystems to bioregional networks, we’ll build coherence around shared purpose and design for emergence, not control."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Shape stories that shape systems.",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "We live inside the stories we tell. I work with communities, coalitions, and visionary teams to surface and shape narratives that remember our interconnectedness and regenerate shared meaning. Through co-creative media, mythic framing, and cultural design, we cultivate cultures of wholeness—where values, voices, and visions can harmonize toward collective liberation."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Create the conditions for emergence and transformation.",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "I offer consulting in participatory process design and facilitation architecture for groups navigating complexity. Whether you’re prototyping a new governance model, hosting multi-stakeholder dialogue, or cultivating a living commons, I support you in weaving regenerative principles into the structure of your collaboration. Together, we co-design the scaffolding for trust, coherence, and transformation."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Align mycelial networks for systemic impact.",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "I work with networks, protocols, and civic initiatives to identify synergies, clarify roles, and cohere shared direction. Using a systems view, I help map the unique function of each node within a broader ecology—so your efforts land in the right place, at the right time, with the right collaborators. Whether you’re navigating bioregional alliances, Web3 ecosystems, or civic coalitions, I support the strategic scaffolding that allows distributed efforts to harmonize and scale."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_azjrq44e3q",
+          "type": "button",
+          "v": 1,
+          "fields": {
+            "label": "Let's Collaborate",
+            "link": {
+              "type": "page",
+              "page": "pg_vhm10zy3tw"
+            },
+            "role": "tertiary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_wrs79je6fs",
+      "layout": {
+        "mode": "grid",
+        "rows": {
+          "d": 20,
+          "m": 8
+        },
+        "items": {
+          "blk_w0wj936d0g": {
+            "d": {
+              "x": 8,
+              "y": 19,
+              "w": 4,
+              "h": 2,
+              "z": 7
+            },
+            "m": {
+              "x": 1,
+              "y": 1,
+              "w": 8,
+              "h": 2,
+              "z": 7
+            }
+          },
+          "blk_4fvhkx82mq": {
+            "d": {
+              "x": 12,
+              "y": 19,
+              "w": 2,
+              "h": 2,
+              "z": 8
+            },
+            "m": {
+              "x": 1,
+              "y": 4,
+              "w": 8,
+              "h": 2,
+              "z": 8
+            }
+          },
+          "blk_kqxe1mk4me": {
+            "d": {
+              "x": 14,
+              "y": 19,
+              "w": 4,
+              "h": 2,
+              "z": 8
+            },
+            "m": {
+              "x": 1,
+              "y": 7,
+              "w": 8,
+              "h": 2,
+              "z": 8
+            }
+          }
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "dark",
+        "background": {
+          "type": "image",
+          "src": "media/2026/10/stocksy-comp-1456470-q8mv.webp",
+          "overlay": {
+            "color": "#000000",
+            "opacity": 0.6
+          }
+        },
+        "minHeight": {
+          "d": "40vh"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_w0wj936d0g",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "systems"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_4fvhkx82mq",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "&"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_kqxe1mk4me",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "culture"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "style": {
+            "align": {
+              "d": "end"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_bhg304141t",
+      "layout": {
+        "mode": "grid",
+        "rows": {
+          "d": 1,
+          "m": 1
+        },
+        "items": {
+          "blk_t7hvege02h": {
+            "d": {
+              "x": 1,
+              "y": 1,
+              "w": 24,
+              "h": 1,
+              "z": 1
+            },
+            "m": {
+              "x": 1,
+              "y": 1,
+              "w": 8,
+              "h": 1,
+              "z": 1
+            }
+          }
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "brand"
+      },
+      "blocks": [
+        {
+          "id": "blk_t7hvege02h",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "walking the beauty way to all beings thriving · walking the beauty way to all beings thriving · walking the beauty way to all beings thriving ·"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_ffmqerhfv0",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "brand"
+      },
+      "blocks": [
+        {
+          "id": "blk_74e47ga3xg",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Values"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_bfzj8g7ay9",
+          "type": "columns",
+          "v": 1,
+          "fields": {
+            "items": [
+              {
+                "heading": "Aligned Incentives",
+                "body": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Developing social and economic systems in which incentives align with wellbeing."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "image": {
+                  "src": "media/2026/10/icon-01-5bdm.webp",
+                  "alt": "An abstract outline icon with a starburst contained within a circle shape.",
+                  "width": 380,
+                  "height": 380,
+                  "mediaId": "med_5bdm3pcf9n"
+                }
+              },
+              {
+                "heading": "Civic Culture",
+                "body": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Non-rivalrous behaviors formalized through solidarity networks and social organisms."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "image": {
+                  "src": "media/2026/10/icon-02-9b56.webp",
+                  "alt": "An abstract outline icon with diagonal lines within a circle shape.",
+                  "width": 380,
+                  "height": 380,
+                  "mediaId": "med_9b56302r2x"
+                }
+              },
+              {
+                "heading": "Participatory Design",
+                "body": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Leveraging the collective intelligence of all relevant participants in the co-design of socio-technical systems."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "image": {
+                  "src": "media/2026/10/icon-03-pqcy.webp",
+                  "alt": "An abstract outline icon with a rainbow-shaped pattern within a circle shape.",
+                  "width": 380,
+                  "height": 380,
+                  "mediaId": "med_pqcy1t3mb2"
+                }
+              },
+              {
+                "heading": "Cosmolocalism",
+                "body": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "What is heavy should be local and self-governed. What is light should be global and shared."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "image": {
+                  "src": "media/2026/10/icon-04-eq6r.webp",
+                  "alt": "An abstract outline icon with geometric and diagonal lines across a circle shape.",
+                  "width": 380,
+                  "height": 380,
+                  "mediaId": "med_eq6r256qay"
+                }
+              },
+              {
+                "heading": "Life-Centered Design",
+                "body": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Designing with and for life by implementing biomimetic principles."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "image": {
+                  "src": "media/2026/10/icon-05-j306.webp",
+                  "alt": "An abstract outline icon of a circle sliced into different proportions on the left and right sides, like a pizza.",
+                  "width": 380,
+                  "height": 380,
+                  "mediaId": "med_j306z809a0"
+                }
+              }
+            ],
+            "columns": "4",
+            "aspect": "4:5"
+          }
+        }
+      ],
+      "preset": "starter/stack-12@1"
+    },
+    {
+      "id": "sec_e6nmmy3ysd",
+      "layout": {
+        "mode": "grid",
+        "rows": {
+          "d": 17,
+          "m": 23
+        },
+        "items": {
+          "blk_vaqsfgw859": {
+            "d": {
+              "x": 1,
+              "y": 1,
+              "w": 13,
+              "h": 17,
+              "z": 1
+            },
+            "m": {
+              "x": 1,
+              "y": 1,
+              "w": 8,
+              "h": 9,
+              "z": 1
+            }
+          },
+          "blk_ewyxpg4kkn": {
+            "d": {
+              "x": 15,
+              "y": 4,
+              "w": 10,
+              "h": 8,
+              "z": 3
+            },
+            "m": {
+              "x": 1,
+              "y": 11,
+              "w": 8,
+              "h": 10,
+              "z": 3
+            }
+          },
+          "blk_pavmtyxj39": {
+            "d": {
+              "x": 15,
+              "y": 13,
+              "w": 7,
+              "h": 2,
+              "z": 4
+            },
+            "m": {
+              "x": 1,
+              "y": 22,
+              "w": 8,
+              "h": 2,
+              "z": 4
+            }
+          }
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "brand",
+        "padding": {
+          "d": "md",
+          "m": "sm"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_vaqsfgw859",
+          "type": "image",
+          "v": 1,
+          "fields": {
+            "image": {
+              "src": "media/2026/10/image-asset-66ms.webp",
+              "alt": "River water ripples shining in the light",
+              "width": 2400,
+              "height": 1600,
+              "mediaId": "med_66ms3vkyp1"
+            },
+            "aspect": "original",
+            "lightbox": false
+          }
+        },
+        {
+          "id": "blk_ewyxpg4kkn",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 4
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "“There are no separate systems. The world is a continuum. Where to draw a boundary around a system depends on the purpose of the discussion.”"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_pavmtyxj39",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 4
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "DONELLA H. MEADOWS"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_j9qwkfvnrk",
+      "layout": {
+        "mode": "grid",
+        "rows": {
+          "d": 21,
+          "m": 8
+        },
+        "items": {
+          "blk_zkbs160g98": {
+            "d": {
+              "x": 8,
+              "y": 3,
+              "w": 10,
+              "h": 2,
+              "z": 7
+            },
+            "m": {
+              "x": 1,
+              "y": 1,
+              "w": 8,
+              "h": 2,
+              "z": 7
+            }
+          },
+          "blk_ke4bjzvz00": {
+            "d": {
+              "x": 12,
+              "y": 11,
+              "w": 2,
+              "h": 2,
+              "z": 8
+            },
+            "m": {
+              "x": 1,
+              "y": 4,
+              "w": 8,
+              "h": 2,
+              "z": 8
+            }
+          },
+          "blk_g804j5pnfd": {
+            "d": {
+              "x": 8,
+              "y": 20,
+              "w": 10,
+              "h": 2,
+              "z": 8
+            },
+            "m": {
+              "x": 1,
+              "y": 7,
+              "w": 8,
+              "h": 2,
+              "z": 8
+            }
+          }
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "dark",
+        "background": {
+          "type": "image",
+          "src": "media/2026/10/stocksy-comp-1462165-ks8h.webp",
+          "overlay": {
+            "color": "#000000",
+            "opacity": 0.6
+          }
+        },
+        "minHeight": {
+          "d": "40vh"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_zkbs160g98",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "sovereignty"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_ke4bjzvz00",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "&"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_g804j5pnfd",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "unity"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_7k2eyfq0vj",
+      "layout": {
+        "mode": "grid",
+        "rows": {
+          "d": 8,
+          "m": 9
+        },
+        "items": {
+          "blk_2msxhx125t": {
+            "d": {
+              "x": 1,
+              "y": 1,
+              "w": 14,
+              "h": 5,
+              "z": 3
+            },
+            "m": {
+              "x": 1,
+              "y": 1,
+              "w": 8,
+              "h": 6,
+              "z": 3
+            }
+          },
+          "blk_4g0btt6wwa": {
+            "d": {
+              "x": 1,
+              "y": 7,
+              "w": 6,
+              "h": 2,
+              "z": 4
+            },
+            "m": {
+              "x": 1,
+              "y": 8,
+              "w": 8,
+              "h": 2,
+              "z": 4
+            }
+          }
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "brand",
+        "padding": {
+          "d": "md",
+          "m": "sm"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_2msxhx125t",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 4
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Harmony is a product not only of yourself but of the surroundings. It is very much a question of what application creates harmony in that place."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_4g0btt6wwa",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 4
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "CHRISTOPHER ALEXANDER"
                     }
                   ]
                 }

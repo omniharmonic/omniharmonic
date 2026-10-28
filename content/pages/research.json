@@ -1,0 +1,137 @@
+{
+  "id": "pg_69y8wvk7ys",
+  "title": "research",
+  "slug": "research",
+  "seo": {
+    "description": "Published research in the domains of governance and economic theory and design.",
+    "image": "media/2026/10/the-arc-3-copy-zc55.webp"
+  },
+  "sections": [
+    {
+      "id": "sec_vncav12qcm",
+      "preset": "component/imported-research-1@1",
+      "label": "Published Research",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "md",
+          "m": "sm"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_6m8rsr346f",
+          "type": "component/imported-research-1",
+          "v": 1,
+          "fields": {
+            "text1": "Published Research",
+            "text2": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Clients",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Allo.Capital, Eyes Wide Open Collective, Independent"
+                    }
+                  ]
+                }
+              ]
+            },
+            "text3": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Years",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "2024 - Present"
+                    }
+                  ]
+                }
+              ]
+            },
+            "text4": "Original research and case studies.",
+            "image5": {
+              "src": "media/2026/10/beyond-narrow-optimization-bg0d.webp",
+              "alt": "",
+              "width": 1600,
+              "height": 2000,
+              "mediaId": "med_bg0dqqs9h6"
+            },
+            "image6": {
+              "src": "media/2026/10/2-b192.webp",
+              "alt": "",
+              "width": 1600,
+              "height": 2000,
+              "mediaId": "med_b1924ska8d"
+            },
+            "image7": {
+              "src": "media/2026/10/6-dr2r.webp",
+              "alt": "",
+              "width": 1600,
+              "height": 2000,
+              "mediaId": "med_dr2rs532ks"
+            },
+            "image8": {
+              "src": "media/2026/10/3-rvt7.webp",
+              "alt": "",
+              "width": 1600,
+              "height": 2000,
+              "mediaId": "med_rvt7xgd73e"
+            },
+            "image9": {
+              "src": "media/2026/10/4-jmwq.webp",
+              "alt": "",
+              "width": 1600,
+              "height": 2000,
+              "mediaId": "med_jmwqxsrvwm"
+            },
+            "image10": {
+              "src": "media/2026/10/5-m13n.webp",
+              "alt": "",
+              "width": 1600,
+              "height": 2000,
+              "mediaId": "med_m13nnmcrav"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

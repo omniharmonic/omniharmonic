@@ -1,0 +1,318 @@
+{
+  "id": "pg_1d5bsjs3r6",
+  "title": "art",
+  "slug": "art",
+  "seo": {
+    "image": "media/2026/10/the-arc-3-copy-zc55.webp"
+  },
+  "sections": [
+    {
+      "id": "sec_2gm2s56vhs",
+      "layout": {
+        "mode": "grid",
+        "rows": {
+          "d": 5,
+          "m": 6
+        },
+        "items": {
+          "blk_ymt3vt0j2q": {
+            "d": {
+              "x": 4,
+              "y": 1,
+              "w": 18,
+              "h": 5
+            },
+            "m": {
+              "x": 1,
+              "y": 1,
+              "w": 8,
+              "h": 6
+            }
+          }
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "dark",
+        "background": {
+          "type": "image",
+          "src": "media/2026/10/unsplash-image-syzfiusqp3q-x5m5.webp",
+          "overlay": {
+            "color": "#000000",
+            "opacity": 0.45
+          }
+        },
+        "minHeight": {
+          "d": "66vh",
+          "m": "50vh"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_ymt3vt0j2q",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 1,
+                    "preset": "h2"
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Art"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_1ytpw7hqb5",
+      "layout": {
+        "mode": "grid",
+        "rows": {
+          "d": 2,
+          "m": 11
+        },
+        "items": {
+          "blk_ev8g76ncby": {
+            "d": {
+              "x": 1,
+              "y": 1,
+              "w": 6,
+              "h": 2,
+              "z": 1
+            },
+            "m": {
+              "x": 1,
+              "y": 1,
+              "w": 8,
+              "h": 2,
+              "z": 1
+            }
+          },
+          "blk_anvacv7tnn": {
+            "d": {
+              "x": 7,
+              "y": 1,
+              "w": 6,
+              "h": 2,
+              "z": 2
+            },
+            "m": {
+              "x": 1,
+              "y": 4,
+              "w": 8,
+              "h": 2,
+              "z": 2
+            }
+          },
+          "blk_t5qk9ncy9h": {
+            "d": {
+              "x": 19,
+              "y": 1,
+              "w": 6,
+              "h": 2,
+              "z": 4
+            },
+            "m": {
+              "x": 1,
+              "y": 10,
+              "w": 8,
+              "h": 2,
+              "z": 4
+            }
+          },
+          "blk_xfzt6w89w3": {
+            "d": {
+              "x": 13,
+              "y": 1,
+              "w": 6,
+              "h": 2,
+              "z": 3
+            },
+            "m": {
+              "x": 1,
+              "y": 7,
+              "w": 8,
+              "h": 2,
+              "z": 3
+            }
+          }
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "dark-accent"
+      },
+      "blocks": [
+        {
+          "id": "blk_ev8g76ncby",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 4
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Music",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://soundcloud.com/benjamin-life",
+                            "newTab": true
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_anvacv7tnn",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 4
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Film",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://www.youtube.com/channel/UCiu7qkR6OiWBuv5Nm3CfmYw",
+                            "newTab": true
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_t5qk9ncy9h",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 4
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Poetry",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://www.instagram.com/omniharmonic",
+                            "newTab": true
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_xfzt6w89w3",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 4
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Photography",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://www.instagram.com/omniharmonic",
+                            "newTab": true
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

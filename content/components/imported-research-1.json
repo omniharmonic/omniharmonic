@@ -1,0 +1,155 @@
+{
+  "name": "imported-research-1",
+  "label": "Published Research",
+  "description": "Recreated from the original site's layout (measured in a browser): every word, picture and link is editable.",
+  "version": 1,
+  "category": "imported",
+  "fields": {
+    "text1": {
+      "kind": "text",
+      "label": "Heading",
+      "maxLength": 300
+    },
+    "text2": {
+      "kind": "richText",
+      "label": "Paragraph “Clients Allo.Capital,…”",
+      "marks": [
+        "bold",
+        "italic",
+        "link"
+      ],
+      "blocks": [
+        "paragraph"
+      ],
+      "maxLength": 3000
+    },
+    "text3": {
+      "kind": "richText",
+      "label": "Paragraph “Years 2024 - Present”",
+      "marks": [
+        "bold",
+        "italic",
+        "link"
+      ],
+      "blocks": [
+        "paragraph"
+      ],
+      "maxLength": 3000
+    },
+    "text4": {
+      "kind": "text",
+      "label": "Paragraph “Original research and…”",
+      "maxLength": 1500,
+      "multiline": true
+    },
+    "image5": {
+      "kind": "image",
+      "label": "Picture 1"
+    },
+    "image6": {
+      "kind": "image",
+      "label": "Picture 2"
+    },
+    "image7": {
+      "kind": "image",
+      "label": "Picture 3"
+    },
+    "image8": {
+      "kind": "image",
+      "label": "Picture 4"
+    },
+    "image9": {
+      "kind": "image",
+      "label": "Picture 5"
+    },
+    "image10": {
+      "kind": "image",
+      "label": "Picture 6"
+    }
+  },
+  "defaults": {
+    "text1": "Published Research",
+    "text2": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Clients",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Allo.Capital, Eyes Wide Open Collective, Independent"
+            }
+          ]
+        }
+      ]
+    },
+    "text3": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Years",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "2024 - Present"
+            }
+          ]
+        }
+      ]
+    },
+    "text4": "Original research and case studies.",
+    "image5": {
+      "src": "https://images.squarespace-cdn.com/content/v1/682568f39b30604d1774df5f/eaf30a3e-3869-42b2-b42c-208da50a6352/Beyond+Narrow+Optimization.png?format=1500w",
+      "alt": ""
+    },
+    "image6": {
+      "src": "https://images.squarespace-cdn.com/content/v1/682568f39b30604d1774df5f/ef6572b3-1f71-4e50-a322-adf4ff445a7a/2.png?format=1500w",
+      "alt": ""
+    },
+    "image7": {
+      "src": "https://images.squarespace-cdn.com/content/v1/682568f39b30604d1774df5f/47851d1b-fcab-451e-9327-e1c2216774ab/6.png?format=1500w",
+      "alt": ""
+    },
+    "image8": {
+      "src": "https://images.squarespace-cdn.com/content/v1/682568f39b30604d1774df5f/db3eb98a-42ce-46ac-a09f-2d4a8b0d10dd/3.png?format=1500w",
+      "alt": ""
+    },
+    "image9": {
+      "src": "https://images.squarespace-cdn.com/content/v1/682568f39b30604d1774df5f/bf90b253-f958-478c-9cdd-6a17dd7f2132/4.png?format=1500w",
+      "alt": ""
+    },
+    "image10": {
+      "src": "https://images.squarespace-cdn.com/content/v1/682568f39b30604d1774df5f/bd85c657-ad04-47b7-9093-db2c22d3b77b/5.png?format=1500w",
+      "alt": ""
+    }
+  },
+  "template": "<div class=\"gx\">\n  <h2 class=\"gx__i gx__i1\">{{text1}}</h2>\n  <div class=\"gx__i gx__i2\">{{rich text2}}</div>\n  <div class=\"gx__i gx__i3\">{{rich text3}}</div>\n  <p class=\"gx__i gx__i4\">{{text4}}</p>\n  <div class=\"gx__i gx__i5 gx__img\">{{image image5 sizes=\"(max-width: 767px) 100vw, 31vw\"}}</div>\n  <div class=\"gx__i gx__i6 gx__img\">{{image image6 sizes=\"(max-width: 767px) 100vw, 31vw\"}}</div>\n  <div class=\"gx__i gx__i7 gx__img\">{{image image7 sizes=\"(max-width: 767px) 100vw, 31vw\"}}</div>\n  <div class=\"gx__i gx__i8 gx__img\">{{image image8 sizes=\"(max-width: 767px) 100vw, 31vw\"}}</div>\n  <div class=\"gx__i gx__i9 gx__img\">{{image image9 sizes=\"(max-width: 767px) 100vw, 31vw\"}}</div>\n  <div class=\"gx__i gx__i10 gx__img\">{{image image10 sizes=\"(max-width: 767px) 100vw, 31vw\"}}</div>\n</div>",
+  "css": ":scope { width: min(100%, 1360px); margin-inline: auto; }\n.gx { display: grid; grid-template-columns: repeat(24, minmax(0, 1fr)); grid-auto-rows: minmax(8px, auto); column-gap: 0; }\n.gx__i { position: relative; z-index: 1; margin: 0; min-width: 0; overflow-wrap: break-word; }\n.gx__i p { margin: 0; }\n.gx__p { z-index: 0; }\n.gx__img picture, .gx__img img { display: block; width: 100%; height: 100%; object-fit: cover; }\n.gx__i1 { grid-column: 1 / span 17; grid-row: 1 / span 17; font-family: var(--os-font-heading); font-size: 128.3px; font-weight: 400; line-height: 1.04; letter-spacing: -0.03em; color: var(--os-color-text); }\n.gx__i2 { grid-column: 19 / span 6; grid-row: 1 / span 11; font-family: var(--os-font-label); font-size: 16px; font-weight: 400; line-height: 1.8; letter-spacing: -0.02em; color: var(--os-color-text); }\n.gx__i3 { grid-column: 19 / span 6; grid-row: 13 / span 7; font-family: var(--os-font-label); font-size: 16px; font-weight: 400; line-height: 1.8; letter-spacing: -0.02em; color: var(--os-color-text); }\n.gx__i4 { grid-column: 1 / span 17; grid-row: 22 / span 4; font-family: var(--os-font-label); font-size: 16px; font-weight: 400; line-height: 1.8; letter-spacing: -0.02em; color: var(--os-color-text); }\n.gx__i5 { grid-column: 1 / span 8; grid-row: 32 / span 49; aspect-ratio: 446 / 391; }\n.gx__i6 { grid-column: 9 / span 8; grid-row: 32 / span 49; aspect-ratio: 446 / 391; }\n.gx__i7 { grid-column: 17 / span 8; grid-row: 32 / span 49; aspect-ratio: 446 / 391; }\n.gx__i8 { grid-column: 1 / span 8; grid-row: 82 / span 49; aspect-ratio: 446 / 391; }\n.gx__i9 { grid-column: 9 / span 8; grid-row: 82 / span 49; aspect-ratio: 446 / 391; }\n.gx__i10 { grid-column: 17 / span 8; grid-row: 82 / span 49; aspect-ratio: 446 / 391; }\n@media (max-width: 767px) {\n  .gx { display: flex; flex-direction: column; gap: var(--os-space-sm); }\n  .gx__i1 { font-family: var(--os-font-heading); font-size: 103px; }\n  .gx__i2 { font-family: var(--os-font-label); font-size: 14px; }\n  .gx__i3 { font-family: var(--os-font-label); font-size: 14px; }\n  .gx__i4 { font-family: var(--os-font-label); font-size: 14px; }\n}",
+  "section": {
+    "width": "wide"
+  }
+}

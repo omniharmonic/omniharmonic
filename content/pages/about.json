@@ -1,0 +1,939 @@
+{
+  "id": "pg_d0347mr8wz",
+  "title": "about",
+  "slug": "about",
+  "seo": {
+    "image": "media/2026/10/the-arc-3-copy-zc55.webp"
+  },
+  "sections": [
+    {
+      "id": "sec_50wrtrff28",
+      "layout": {
+        "mode": "grid",
+        "rows": {
+          "d": 22,
+          "m": 30
+        },
+        "items": {
+          "blk_wc3s3hkn8z": {
+            "d": {
+              "x": 10,
+              "y": 1,
+              "w": 6,
+              "h": 6,
+              "z": 1
+            },
+            "m": {
+              "x": 1,
+              "y": 1,
+              "w": 8,
+              "h": 7,
+              "z": 1
+            }
+          },
+          "blk_c4z2bdygg7": {
+            "d": {
+              "x": 6,
+              "y": 8,
+              "w": 14,
+              "h": 13
+            },
+            "m": {
+              "x": 1,
+              "y": 9,
+              "w": 8,
+              "h": 16
+            }
+          },
+          "blk_yqb7b0xx9y": {
+            "d": {
+              "x": 6,
+              "y": 21,
+              "w": 6,
+              "h": 2,
+              "z": 2
+            },
+            "m": {
+              "x": 1,
+              "y": 26,
+              "w": 8,
+              "h": 2,
+              "z": 2
+            }
+          },
+          "blk_wgb9beafzz": {
+            "d": {
+              "x": 14,
+              "y": 21,
+              "w": 6,
+              "h": 2,
+              "z": 3
+            },
+            "m": {
+              "x": 1,
+              "y": 29,
+              "w": 8,
+              "h": 2,
+              "z": 3
+            }
+          }
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_wc3s3hkn8z",
+          "type": "image",
+          "v": 1,
+          "fields": {
+            "image": {
+              "src": "media/2026/10/img-2377-w8xf.webp",
+              "alt": "",
+              "width": 2316,
+              "height": 2316,
+              "mediaId": "med_w8xf73a62y"
+            },
+            "aspect": "original",
+            "lightbox": false
+          }
+        },
+        {
+          "id": "blk_c4z2bdygg7",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 1
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "I did it all for love"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "“I live on Earth at present, and I don’t know what I am. I know that I am not a category. I am not a thing — a noun. I seem to be a verb, an evolutionary process – an integral function of the universe.”",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "― "
+                    },
+                    {
+                      "type": "text",
+                      "text": "R. Buckminster Fuller",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "“When one tugs at a single thing in nature, he finds it attached to the rest of the world.”",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "— "
+                    },
+                    {
+                      "type": "text",
+                      "text": "John Muir",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_yqb7b0xx9y",
+          "type": "button",
+          "v": 1,
+          "fields": {
+            "label": "About omniharmonic",
+            "link": {
+              "type": "page",
+              "page": "pg_d0347mr8wz",
+              "anchor": "about-omniharmonic"
+            },
+            "role": "primary"
+          },
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_wgb9beafzz",
+          "type": "button",
+          "v": 1,
+          "fields": {
+            "label": "About Benjamin Life",
+            "link": {
+              "type": "page",
+              "page": "pg_d0347mr8wz",
+              "anchor": "about-benjamin-life"
+            },
+            "role": "primary"
+          },
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_1bxpe4vv7j",
+      "layout": {
+        "mode": "grid",
+        "rows": {
+          "d": 6,
+          "m": 9
+        },
+        "items": {
+          "blk_x6kymjvz4d": {
+            "d": {
+              "x": 2,
+              "y": 1,
+              "w": 10,
+              "h": 1,
+              "z": 1
+            },
+            "m": {
+              "x": 1,
+              "y": 1,
+              "w": 8,
+              "h": 1,
+              "z": 1
+            }
+          },
+          "blk_q8spaby0sc": {
+            "d": {
+              "x": 14,
+              "y": 1,
+              "w": 8,
+              "h": 6,
+              "z": 2
+            },
+            "m": {
+              "x": 1,
+              "y": 3,
+              "w": 8,
+              "h": 7,
+              "z": 2
+            }
+          }
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "brand"
+      },
+      "blocks": [
+        {
+          "id": "blk_x6kymjvz4d",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 4
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "About omniharmonic"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_q8spaby0sc",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 4
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "“It’s not the note you play that’s the wrong note. It’s the note you play afterwards that makes it right or wrong.”"
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "- "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Miles Davis",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_t4f1dwbynm",
+      "layout": {
+        "mode": "grid",
+        "rows": {
+          "d": 25,
+          "m": 30
+        },
+        "items": {
+          "blk_rzj9e8wtky": {
+            "d": {
+              "x": 8,
+              "y": 1,
+              "w": 10,
+              "h": 25,
+              "z": 1
+            },
+            "m": {
+              "x": 1,
+              "y": 1,
+              "w": 8,
+              "h": 30,
+              "z": 1
+            }
+          }
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "light-accent"
+      },
+      "blocks": [
+        {
+          "id": "blk_rzj9e8wtky",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Modernity fractured the world, separating humans from nature, mind from body, producer from consumer, decision from consequence. We inherited coordination systems built on extraction, hierarchy, and zero-sum competition. These systems now fail not because we lack the will to fix them, but because their fundamental architecture cannot process the complexity we face."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "omniharmonic begins from a different question: What if coherence doesn’t require uniformity? What if harmony, like in music, emerges from multiple voices finding resonance rather than singing the same note?"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The name itself points to a practice, a way of listening across all domains (omni) for the patterns that allow diverse elements to sound together (harmonic). Not the imposed harmony of a conductor forcing consensus, but the emergent harmony of a jazz ensemble, where each player’s improvisations create something none could achieve alone."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "This is the work of sensing how fragmented systems might resolve into polyphonic coherence. How watersheds and protocols, neighborhoods and networks, local knowledge and global coordination might find their right relationship. How we move from the decoherence of modernity, its extractive logic, its forced binaries, its illusion of separation—toward regenerative patterns that recognize we are life, organizing itself."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The Post-Tragic Turn",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "These essays operate in what we might call “post-tragic” territory. They acknowledge the breakdown of institutions, the cascading crises, the inability of centralized systems to coordinate at the complexity we’ve created. But tragedy isn’t the endpoint, it’s the doorway to something more honest."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Post-tragic means building with eyes wide open. It means designing for resilience while existing systems fail. It means creating dual-power structures that can interface with dying institutions while cultivating living alternatives. It means recognizing that collapse is not an event but a process, and in that process, space opens for different organizing logics to take root."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The work here explores what’s emerging in those spaces: bioregional networks that govern like forests rather than corporations, mathematical mechanisms like quadratic funding that operationalize genuine pluralism, commons governance that prevents capture while enabling coordination, cosmolocal patterns that allow knowledge to flow globally while production stays rooted in place."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "From Separation to Participation",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Modern institutions trained us to see the world as separate systems, the economy distinct from ecology, governance divorced from culture, technology as external tools rather than extensions of ourselves. This separation is the original decoherence, the fundamental dissonance that cascades into every crisis we face."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "omniharmonic traces coordination patterns that dissolve these false separations. In forests, nutrient distribution and information sharing and defense coordination all flow through the same mycelial networks—no distinction between economy and communication, no separation of governance from relationship. The system coordinates through embodied intelligence, distributed sensing, and mutual aid."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The essays here examine concrete implementations: how bioregional networks practice institutional self-negation to prevent the re-enclosure of commons, how polycentric governance enables decisions at the scale of their impact, how network sovereignty operates alongside institutional interfaces, how communities build capacity for collective sense-making and adaptive response."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Deep Listening as Practice",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "At its core, omniharmonic is about cultivating a particular kind of attention, the capacity to sense across scales and domains for the patterns that want to emerge. This requires what the original bioregionalists called “reinhabitation”: learning to perceive the living systems we’re embedded within, to recognize that watersheds and soil communities and seasonal rhythms aren’t resources to manage but relationships to tend."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "It requires listening for dissonance not as failure but as signal. When systems fragment, when coordination breaks down, when institutions fail, these aren’t bugs to fix but information about misalignment. The dissonance points toward what wants to change, toward hidden coherence at a different scale, toward higher harmonies we haven’t yet learned to hear."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The Work Ahead",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "What you’ll find here is neither blueprint nor manifesto. These are field notes from communities and networks experimenting with post-institutional coordination. Theoretical frameworks grounded in concrete implementation. Complex ideas explained through clear language and lived example."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "If you’re designing governance for a DAO or a watershed council, building bioregional infrastructure or exploring regenerative economics, facilitating commons or experimenting with participatory systems, these essays offer not answers but adjacent wisdom. Patterns observed from mycelial networks and applied to human coordination. Principles drawn from how life actually organizes, tested against the material constraints we face."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The regenerative future isn’t something we build in place of the current system. It’s something we cultivate in relationship with all that is, learning to hear the harmonies that already exist beneath the noise of extraction, learning to participate in patterns older and wiser than any institution we’ve inherited."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The world is a chorus, not a solo. omniharmonic explores how we might learn to sing life’s song again."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_hcn3gakzgr",
+      "layout": {
+        "mode": "grid",
+        "rows": {
+          "d": 6,
+          "m": 10
+        },
+        "items": {
+          "blk_hmz8c3dj0f": {
+            "d": {
+              "x": 1,
+              "y": 3,
+              "w": 6,
+              "h": 4,
+              "z": 2
+            },
+            "m": {
+              "x": 1,
+              "y": 1,
+              "w": 8,
+              "h": 5,
+              "z": 2
+            }
+          },
+          "blk_pgwx7acb6m": {
+            "d": {
+              "x": 7,
+              "y": 3,
+              "w": 15,
+              "h": 3,
+              "z": 1
+            },
+            "m": {
+              "x": 1,
+              "y": 7,
+              "w": 8,
+              "h": 4,
+              "z": 1
+            }
+          }
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "light-accent"
+      },
+      "blocks": [
+        {
+          "id": "blk_hmz8c3dj0f",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 4
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "About Benjamin Life"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_pgwx7acb6m",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 4
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "I’ve been pulling the same thread my whole life, unwinding our world in an attempt to re-weave it back together as an “integral function of the universe.”"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_m0eky451ck",
+      "layout": {
+        "mode": "grid",
+        "rows": {
+          "d": 55,
+          "m": 66
+        },
+        "items": {
+          "blk_m4g3a2241c": {
+            "d": {
+              "x": 8,
+              "y": 1,
+              "w": 10,
+              "h": 55,
+              "z": 1
+            },
+            "m": {
+              "x": 1,
+              "y": 1,
+              "w": 8,
+              "h": 66,
+              "z": 1
+            }
+          }
+        },
+        "width": "wide"
+      },
+      "style": {
+        "colorTheme": "brand"
+      },
+      "blocks": [
+        {
+          "id": "blk_m4g3a2241c",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ever since I was twelve or thirteen years old, I’ve asked the same question: “why is the world so full of suffering and why haven’t we collectively chosen to create a more beautiful one?”"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "My first instinct as a young person was that people must not know about the suffering of our world. Surely, if they did, something would change. In middle school, I started making documentary films about poverty, famine, and global human rights crises. My parents brought me to the anti-war protests in San Francisco just preceding the invasion of Iraq. My early adolescent brain couldn’t comprehend how the largest protests since the 1960s weren’t able to stop the war machine from consuming the lives of innocent Iraqis, condemning veterans to decades of suffering with untreated PTSD, and perpetuating global imperialism."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "In high school, I edited our newspaper and organized coffee house performances for Amnesty International. At 18, I worked on Barack Obama’s campaign, fully believing in Obama’s “yes we can” hope and change rhetoric. By 20, I had seen Obama, whose cabinet was filled with banking industry executives, bail out the banks while leaving poor and middle class home owners economically devastated, extrajudicially murder US citizens, and launch a drone war that made US imperialism grotesquely more palatable to the American public by placing the brutality and banality of war behind the smoke screen of autonomous, so-called “precision strikes” that were actually wiping out entire families, women, and children. I camped out at Occupy Wall Street in Boston in between my classes at Tufts University where I studied International Relations and Media Studies, already deeply disillusioned by our corrupt institutions of finance and politics. I was being groomed to become a middle manager of global imperialism through the lens of “sustainable international development,” another false promise of improved quality of life masquerading atop US-backed resource extraction from poor nations by multinational corporations, perpetuated by economic hitmen and authoritarian governments."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Upon graduating, I was deeply depressed and anxious, stuck in the rut of a despondent, post-modern malaise that was equally philosophical and systemic. I’d already spent a summer interning at the United Nations in Uganda and had studied photojournalism in Burma and on Pine Ridge Reservation in South Dakota. I had seen first-hand that so-called international development and our mainstream media institutions didn’t hold the answers to the question that had driven me around the world at an early age. In the UN, I saw the heroes that I had looked up to were actually an addicted, isolated professional class that managed programs in contexts totally foreign to them, operating utterly inhuman bureaucracies that didn’t create meaningful change. I witnessed my photojournalist mentor fly into a country he’d never been to, hire a local to take him to a conflict zone, snap a few frames, and tell the entire world a version of the story that was totally disconnected from the lived experiences and perspectives of people on the ground."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "I’d somehow been lucky enough to see these worlds from the inside before entering the workforce. I was heartbroken to discover that international NGOs, corporate media and governments were all complicit in bolstering extractive capitalism, at best only vaguely mitigating its devastating effects. These institutions, I had been blessed to discover at an early age, were not designed to create any type of structural change but to prevent large scale revolt by endorsing a myth of progress that would keep the machine churning without resistance."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Lost and confused, I decided to take my summer savings from working on a food truck and move to the Big Island of Hawai'i. Early juvenile experiments with psilocybin mushrooms in college had opened just a crack in the fortified doorway of my perception, just enough to know that perhaps there was some substrate of reality that I hadn’t yet perceived. I knew I didn’t want to enter into the workforce within any of the contexts I’d explored during my studies and I had a strangely prescient knowing that I might find new answers in the fringe worlds of land projects, spiritual communes, and indigenous ceremony. A brief but lasting encounter with Lakota culture and spirituality during my time on Pine Ridge Reservation had given me a bread crumb to follow."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The island of Hawai’i was balm for my badly injured soul. I had struggled with depression and anxiety throughout my college experience, gradually awakening to just how totalizing our societal sickness had become, without any metaphysical, imaginal, or systems understandings that could keep the wavering flame of hope in me alive. As I hopped between intentional communities, I encountered a vast array of worldviews that I had previously not known existed. I learned meditation and yoga from an alcoholic and chain smoking Sri Lankan sadhu. I was forced to watch horrific documentaries about industrial animal agriculture at a polyamorous vegan cult. I smoked joints and played chess with hippy anarchists who had burned their passports and refused to touch money. I spent evenings at Uncle Robert’s, a legendary indigenous Hawaiian sovereignty hub. None of these paths in and of themselves were completely appealing to me, but my time on the island was fundamentally transformational. I saw the inklings of a path opening up before me, a thin golden thread of deep cultural and systemic transformation that could create a more beautiful world from the ground up. I didn’t know where this path would take me, but I knew I needed to start at the root."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "When I returned to the mainland, I eventually found my way into a year long vow of poverty and devotional work at an urban food bank in the city of Sacramento. I drove a massive box truck to pick up pallets of government food subsidy surplus foods at an old military base that were filled with high fructose corn syrup. I dug through expired groceries in a warehouse, finding food that was still close enough to its expiration date to avoid poisoning the poor families we served. I watched mothers stand in line for hours, just to receive five days of food aid that was still insufficient to meet their needs after their food stamps had run out for the month. During that year, I witnessed first hand how broken our food system, health care system, and economy are. I watched with horror as the “solutions” in the non-profit world revealed themselves to be a bandaid on a gaping, festering wound. I would later learn that non-profits were created by the first monopolists to mitigate the externalities of their extractive industries in an attempt to improve public perception of the ownership class. Even working on the ground distributing food aid, I was still complicit and interwoven into a system that I knew was inherently violent and self-destructive."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "I moved to Los Angeles, did my first 10 day silent Vipassana retreat, and began driving for Lyft, uncertain what would come next. One fateful day, a bright eyed woman got into the back seat with a duffle bag full of virtual reality headsets. With my film studies and non-profit background, I immediately jumped into a conversation about the power of immersive media to shift perspectives and connect viewers with experiences outside of their own. By the end of the 45 minute car ride, the woman had offered me a job as the personal assistant to a big name Hollywood music video director who had recently founded a virtual reality production studio. Within a few weeks, I was proof-reading emails to Bono, demoing virtual reality to Rick Rubin, and assembling a futuristic hyperbaric oxygen healing chamber in this eccentric Hollywood executive’s home. This strange opportunity felt fated, but I didn’t yet quite know why. I had been disillusioned by my initial forays into media because of the complicit relationship of media corporations in systems of oppression when filmmakers or photographers impose their perspective or “lens” on their subjects, leading to a hegemonic or colonial view of “other.” I was excited by virtual reality because of its potential to place viewers inside another’s perspective. I saw the honesty of live action 360 degree video production which required the creator to place the camera in the middle of a scene and walk away, allowing the action to unfold without being directed, sculpted, or manipulated."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "After two years of surviving a toxic Hollywood environment while developing my skills as a virtual reality filmmaker, I was accepted into Facebook’s first cohort of VR For Good filmmakers. I received a large grant and was paired with a non-profit in New York City to create a VR documentary about their work. Alongside my longterm romantic partner at the time, I left my job in Hollywood and used the grant to launch a social impact virtual reality production company, Co.Reality, and co-directed our first documentary alongside the primary subject of the film, a teen survivor of sexual abuse. The documentary, Rise Above, was selected by SXSW film festival and we went to Austin to screen the film. There, we met a media producer, one of the judges on the immersive media panel, who had appreciated the techniques and values we’d incorporated into the film. He offered to help us produce our next documentary which we proposed as a documentary series profiling front line Earth Guardians. The first film in the series profiled Sonia Guajajara, an indigenous climate leader from the Brazilian Amazon. With the money we received to produce the film, we funded an expedition with a front line indigenous forest monitoring militia to document the illegal logging and poaching that was taking place in indigenous territories in Brazil. Upon completion, we partnered with the United Nations to bring the film to COP23 in Germany. On the pavilion floor of the global climate conference, my life changed forever."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Screening our film at COP23 was the apex of my filmmaking career, offering me the direct experience of fulfilling the theory of change I’d been exploring since middle school: if leaders with power could immerse themselves in the experiences of the people who are suffering as the result of our broken socio-economic systems, surely they would use their power to make a change. With great anticipation, I placed a virtual reality headset on the Brazilian Minister of Forestry, the man in charge of logging contracts in the Amazon. Before the 8 minutes of the film was over, he took off the headset, shrugged, and walked away without so much as a word of conversation. In that exact moment, my entire theory of change shattered. It would take me years to understand why, but I came to discover that even those with power are merely actuaries for a system of incentives that drives destructive behavior. If they fail to enact the policies and procedures that stem from those incentives, they will either be fired or killed. The system itself is what esoteric philosophers called an “egregore,” a non-physical entity or thought-form that arises from the collective thoughts and emotions of a group of individuals. No one person, film, or even mass social movement can change the function of the system through shifts in perspective alone, although they are necessary to open the imagination to new ways of seeing and living in the world. Ultimately, it’s the incentives and behaviors that co-arise with systems and cultures that determine the choices that we perceive and are available to us."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Humbled, my worldview crumbling, I returned to LA where I would spend a few months struggling to integrate the lesson I’d learned until my relationship and business began to crumble around me. Uncoupled and unemployed, living off the generosity of friends and allies, I spent the following year deep in research regarding how systems operate and change. I immersed myself in the work of Buckminster Fuller, Joanna Macy, Barbara Marx Hubbard, Vandana Shiva, David Bohm, Nora Bateson, Charles Eisenstein, Daniel Schmachtenberger and anyone else who seemed to have a clear sight on the systemic nature of humanity’s self-destructive patterns."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "When I heard Daniel Schmachtenberger diagnose the problem, everything clicked into place. He said, “rivalrous dynamics, multiplied by existential technology, are inherently self-terminating.” It was the complex adaptive systems that had arisen around rivalrous, win-lose game dynamics that were the incentive structure driving us on exponentially increasing speeds towards self-extinction. What might a world based in omni-win game dynamics be? Who must we become as individuals and as a collective planetary culture to enact such a world? These questions became the central inquiry of my life and led me down an array of expert domains so diverse that I can’t cover them all in this (somewhat) brief biographical essay."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Having surveyed the landscape of whom in my extended network was attempting to address these root causes of what Daniel dubbed “the meta-crisis,” I found Christopher and Sophia Life, a couple based in Encinitas working on a systems change political party called One Nation. I first sat, late into the night, with Christopher and Sophia upon our first meeting. Sitting around their dining room table in Encinitas, we took turns sharing our vision for how humanity might rise to the occasion of the meta-crisis and rebirth itself. At one point in the conversation I remarked, “the meta-crisis is a complex adaptive system of crises and breakdowns. To sufficiently respond, we need to create our own complex adaptive system.” And the rest, as they say, was history."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "I worked for several years on One Nation through our media and storytelling efforts, attempting to coalesce a political narrative that spoke to a deeper omni-considerate core than the us-vs-them rhetoric of Democrats and Republicans. Ultimately, that political narrative was impossible to ground without direct and embodied examples of a different kind of solidarity, rooted in new cultures and systems. I began to hone in on the field of civic innovation as a precursor for a unitive political consciousness. Civics is the substrate of our systems, the backbone of currency, coordination, and care. To enact the world we’d been imagining through our political storytelling, I discovered, would require civic innovation."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "I quit working in politics and moved into my big blue van to begin working on a decentralized organization to coordinate the builders of these new civic systems. I immersed myself in the emerging bioregional movement, a socio-cultural process of remembering our belonging to place and ecology. I’ve written constitutions and frameworks for decentralized governance and complex systems change coordination. I began to arrive at the ultimate expression of my entire life’s work, a complex adaptive system to support the non-rivalrous coordination of the builders of alternative, life-centric systems."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Now, I live in Boulder, CO as part of a community of activists and cultural leaders creating the foundations of a life-centric culture. I make music. I write. I organize globally and locally. I help my friends."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "More than any theory of change, I am devoted to the lived experience of taking responsibility for the health and wellbeing of our relationships to place and our kin. These relationships are nourished through our "
+                    },
+                    {
+                      "type": "text",
+                      "text": "way of being",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " more than they are dependent on a system or structure. Our systems and structures will arise from this way of being as we develop our capacities as humans to be good relatives and to take responsibility for the ecologies and people we call home."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "I am honored and grateful to share this journey home with you."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "For People & Planet,"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Benjamin"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

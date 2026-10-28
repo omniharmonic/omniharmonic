@@ -1,0 +1,1332 @@
+{
+  "score": 71,
+  "exact": 71.1,
+  "strict": {
+    "score": 71,
+    "exact": 70.66
+  },
+  "scorer": "v3.1-corrected",
+  "pages": [
+    {
+      "path": "/",
+      "original": "https://www.omniharmonic.com/home/",
+      "imported": "/ (local preview)",
+      "viewport": 1440,
+      "score": 69,
+      "structure": 69,
+      "exact": 68.85304357157592,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Instrument Serif",
+          "imported": "Instrument Serif",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 1 size",
+          "original": "137px",
+          "imported": "17px",
+          "ok": false,
+          "fix": "choices.typography.scale.h1.size = 137",
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 2: present",
+          "original": "Instrument Serif 19.5px",
+          "imported": "not found",
+          "ok": false,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "Public Sans",
+          "imported": "Public Sans",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Public Sans",
+          "imported": "Public Sans",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "-0.03em, none",
+          "imported": "-0.03em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation letter spacing and case",
+          "original": "-0.02em, none",
+          "imported": "-0.02em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title letter spacing and case",
+          "original": "-0.02em, none",
+          "imported": "-0.02em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "55px",
+          "imported": "44px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "300px",
+          "imported": "0px",
+          "ok": false,
+          "fix": "choices.shape = \"round\"",
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "I seem to be a verb·I seem to be a verb·I seem to be a verb I seem to be a verb ·",
+          "importedIndex": 1,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#ffffff",
+              "imported": "#131313",
+              "ok": false,
+              "fix": "Give the section its own background color (style.background = { type: \"color\", color: \"#ffffff\" }).",
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "5",
+              "imported": "2",
+              "ok": false,
+              "fix": "Lay the text out in columns (a stack layout with more columns, or the text block's Columns style).",
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "center, 100% wide",
+              "imported": "center, 100% wide",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image crop",
+              "original": "2.14:1",
+              "imported": "2.1:1",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "5913px",
+              "imported": "685px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 29
+        }
+      ],
+      "strict": {
+        "score": 65,
+        "exact": 65.34319135482716,
+        "structure": 64,
+        "checks": 64.28571428571429
+      },
+      "corrections": [
+        "The new site's navigation sits in a header themed \"brand\" (os-theme-brand): read as navigation, not as a logo."
+      ],
+      "visual": 0.685
+    },
+    {
+      "path": "/",
+      "original": "https://www.omniharmonic.com/home/",
+      "imported": "/ (local preview)",
+      "viewport": 390,
+      "score": 61,
+      "structure": 56,
+      "exact": 60.89191001161754,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Instrument Serif",
+          "imported": "Instrument Serif",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 1 size",
+          "original": "91.6px",
+          "imported": "16px",
+          "ok": false,
+          "fix": "choices.typography.scale.h1.sizeMobile = 92",
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Heading 2: present",
+          "original": "Instrument Serif 18.2px",
+          "imported": "not found",
+          "ok": false,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "Public Sans",
+          "imported": "Public Sans",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "type",
+          "what": "Buttons: present",
+          "original": "Public Sans 16px",
+          "imported": "not found",
+          "ok": false,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Public Sans",
+          "imported": "Public Sans",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Site title size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title letter spacing and case",
+          "original": "-0.02em, none",
+          "imported": "-0.02em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "102px",
+          "imported": "28px",
+          "ok": false,
+          "fix": "choices.layout.sectionPaddingMobile = 102",
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "I seem to be a verb·I seem to be a verb I seem to be a verb ·",
+          "importedIndex": 1,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#ffffff",
+              "imported": "#131313",
+              "ok": false,
+              "fix": "Give the section its own background color (style.background = { type: \"color\", color: \"#ffffff\" }).",
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "1",
+              "ok": false,
+              "fix": "Lay the text out in columns (a stack layout with more columns, or the text block's Columns style).",
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "center, 100% wide",
+              "imported": "center, 100% wide",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image crop",
+              "original": "0.71:1",
+              "imported": "0.31:1",
+              "ok": false,
+              "fix": "Use the original's image proportions (the block's aspect ratio).",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "7276px",
+              "imported": "1241px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 14
+        }
+      ],
+      "strict": {
+        "score": 61,
+        "exact": 60.89191001161754,
+        "structure": 56,
+        "checks": 56
+      },
+      "visual": 0.756
+    },
+    {
+      "path": "/about",
+      "original": "https://www.omniharmonic.com/about/",
+      "imported": "/about (local preview)",
+      "viewport": 1440,
+      "score": 88,
+      "structure": 88,
+      "exact": 88.45517062758569,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Instrument Serif",
+          "imported": "Instrument Serif",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 1 size",
+          "original": "149.1px",
+          "imported": "149.1px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "Public Sans",
+          "imported": "Public Sans",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Public Sans",
+          "imported": "Public Sans",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "-0.03em, none",
+          "imported": "-0.03em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation letter spacing and case",
+          "original": "-0.02em, none",
+          "imported": "-0.02em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title letter spacing and case",
+          "original": "-0.02em, none",
+          "imported": "-0.02em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "0px",
+          "imported": "0px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "I did it all for love",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#ffffff",
+              "imported": "#fafafa",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Instrument Serif 149.1px",
+              "imported": "Instrument Serif 149.1px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Public Sans 16px",
+              "imported": "Public Sans 16px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#000000",
+              "imported": "#000000",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "1",
+              "ok": false,
+              "fix": "Lay the text out in columns (a stack layout with more columns, or the text block's Columns style).",
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Italic lines",
+              "original": "2",
+              "imported": "2",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "center, 100% wide",
+              "imported": "none",
+              "ok": false,
+              "fix": "Adjust the stack column spans (image column) or the image's side.",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "12290px",
+              "imported": "1082px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 67
+        }
+      ],
+      "strict": {
+        "score": 88,
+        "exact": 88.45517062758569,
+        "structure": 88,
+        "checks": 87.5
+      },
+      "visual": 0.913
+    },
+    {
+      "path": "/about",
+      "original": "https://www.omniharmonic.com/about/",
+      "imported": "/about (local preview)",
+      "viewport": 390,
+      "score": 79,
+      "structure": 78,
+      "exact": 79.30089597542818,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Instrument Serif",
+          "imported": "Instrument Serif",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 1 size",
+          "original": "63.9px",
+          "imported": "39px",
+          "ok": false,
+          "fix": "choices.typography.scale.h1.sizeMobile = 64",
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "Public Sans",
+          "imported": "Public Sans",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Public Sans",
+          "imported": "Public Sans",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Buttons size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Buttons letter spacing and case",
+          "original": "-0.03em, none",
+          "imported": "-0.03em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title letter spacing and case",
+          "original": "-0.02em, none",
+          "imported": "-0.02em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "375px",
+          "imported": "66px",
+          "ok": false,
+          "fix": "choices.layout.sectionPaddingMobile = 375",
+          "weight": 1
+        },
+        {
+          "area": "buttons",
+          "what": "Button corners",
+          "original": "0px",
+          "imported": "0px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "I did it all for love",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#ffffff",
+              "imported": "#fafafa",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Instrument Serif 63.9px",
+              "imported": "Instrument Serif 39px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Public Sans 16px",
+              "imported": "Public Sans 16px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#000000",
+              "imported": "#000000",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Italic lines",
+              "original": "2",
+              "imported": "2",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "center, 100% wide",
+              "imported": "center, 83% wide",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image crop",
+              "original": "0.38:1",
+              "imported": "2.32:1",
+              "ok": false,
+              "fix": "Use the original's image proportions (the block's aspect ratio).",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "17992px",
+              "imported": "837px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 69
+        }
+      ],
+      "strict": {
+        "score": 79,
+        "exact": 79.30089597542818,
+        "structure": 78,
+        "checks": 78.125
+      },
+      "visual": 0.828
+    },
+    {
+      "path": "/art",
+      "original": "https://www.omniharmonic.com/art/",
+      "imported": "/art (local preview)",
+      "viewport": 1440,
+      "score": 61,
+      "structure": 61,
+      "exact": 60.989170800418606,
+      "checks": [
+        {
+          "area": "type",
+          "what": "Heading 2: present",
+          "original": "Instrument Serif 128.3px",
+          "imported": "not found",
+          "ok": false,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Public Sans",
+          "imported": "Public Sans",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Navigation size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation letter spacing and case",
+          "original": "-0.02em, none",
+          "imported": "-0.02em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title letter spacing and case",
+          "original": "-0.02em, none",
+          "imported": "-0.02em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "229px",
+          "imported": "43.5px",
+          "ok": false,
+          "fix": "choices.layout.sectionPadding = 229",
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "Art",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#ffffff",
+              "imported": "#131313",
+              "ok": false,
+              "fix": "Give the section its own background color (style.background = { type: \"color\", color: \"#ffffff\" }).",
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Instrument Serif 128.3px",
+              "imported": "Instrument Serif 19.5px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "center, 100% wide",
+              "imported": "center, 100% wide",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image crop",
+              "original": "2.42:1",
+              "imported": "2.42:1",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1188px",
+              "imported": "594px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 44
+        }
+      ],
+      "strict": {
+        "score": 61,
+        "exact": 60.989170800418606,
+        "structure": 61,
+        "checks": 61.111111111111114
+      },
+      "visual": 0.606
+    },
+    {
+      "path": "/art",
+      "original": "https://www.omniharmonic.com/art/",
+      "imported": "/art (local preview)",
+      "viewport": 390,
+      "score": 64,
+      "structure": 63,
+      "exact": 64.29029991421172,
+      "checks": [
+        {
+          "area": "type",
+          "what": "Heading 2: present",
+          "original": "Instrument Serif 86.2px",
+          "imported": "not found",
+          "ok": false,
+          "weight": 1
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Public Sans",
+          "imported": "Public Sans",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Site title size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title letter spacing and case",
+          "original": "-0.02em, none",
+          "imported": "-0.02em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "257px",
+          "imported": "20.5px",
+          "ok": false,
+          "fix": "choices.layout.sectionPaddingMobile = 257",
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "Art",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#ffffff",
+              "imported": "#131313",
+              "ok": false,
+              "fix": "Give the section its own background color (style.background = { type: \"color\", color: \"#ffffff\" }).",
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Instrument Serif 86.2px",
+              "imported": "Instrument Serif 84.3px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "1",
+              "imported": "1",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "center, 100% wide",
+              "imported": "center, 100% wide",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image crop",
+              "original": "0.66:1",
+              "imported": "0.87:1",
+              "ok": false,
+              "fix": "Use the original's image proportions (the block's aspect ratio).",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1188px",
+              "imported": "450px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 56
+        }
+      ],
+      "strict": {
+        "score": 64,
+        "exact": 64.29029991421172,
+        "structure": 63,
+        "checks": 62.5
+      },
+      "visual": 0.697
+    },
+    {
+      "path": "/research",
+      "original": "https://www.omniharmonic.com/research/",
+      "imported": "/research (local preview)",
+      "viewport": 1440,
+      "score": 93,
+      "structure": 97,
+      "exact": 93.37387395932149,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Instrument Serif",
+          "imported": "Instrument Serif",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 2 size",
+          "original": "128.3px",
+          "imported": "128.3px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "Public Sans",
+          "imported": "Public Sans",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Public Sans",
+          "imported": "Public Sans",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Navigation size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Navigation letter spacing and case",
+          "original": "-0.02em, none",
+          "imported": "-0.02em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title letter spacing and case",
+          "original": "-0.02em, none",
+          "imported": "-0.02em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Content width",
+          "original": "1360px",
+          "imported": "1360px",
+          "ok": true,
+          "weight": 2
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "103px",
+          "imported": "100px",
+          "ok": true,
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "Published Research",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#ffffff",
+              "imported": "#fafafa",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Instrument Serif 128.3px",
+              "imported": "Instrument Serif 128.3px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Public Sans 16px",
+              "imported": "Public Sans 16px",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#000000",
+              "imported": "#000000",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "3",
+              "imported": "3",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "right, 31% wide",
+              "imported": "right, 31% wide",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image crop",
+              "original": "1.14:1",
+              "imported": "0.8:1",
+              "ok": false,
+              "fix": "Use the original's image proportions (the block's aspect ratio).",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1195px",
+              "imported": "1515px",
+              "ok": true,
+              "weight": 1
+            }
+          ],
+          "score": 92
+        }
+      ],
+      "strict": {
+        "score": 93,
+        "exact": 93.37387395932149,
+        "structure": 97,
+        "checks": 96.875
+      },
+      "visual": 0.829
+    },
+    {
+      "path": "/research",
+      "original": "https://www.omniharmonic.com/research/",
+      "imported": "/research (local preview)",
+      "viewport": 390,
+      "score": 53,
+      "structure": 50,
+      "exact": 52.61801443297729,
+      "checks": [
+        {
+          "area": "fonts",
+          "what": "Heading font",
+          "original": "Instrument Serif",
+          "imported": "Instrument Serif",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Heading 2 size",
+          "original": "86.2px",
+          "imported": "103px",
+          "ok": false,
+          "fix": "choices.typography.scale.h2.sizeMobile = 86",
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Body font",
+          "original": "Public Sans",
+          "imported": "Public Sans",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Body text size",
+          "original": "16px",
+          "imported": "14px",
+          "ok": false,
+          "fix": "choices.typography.scale.body.sizeMobile = 16",
+          "weight": 2
+        },
+        {
+          "area": "fonts",
+          "what": "Label font",
+          "original": "Public Sans",
+          "imported": "Public Sans",
+          "ok": true,
+          "weight": 3
+        },
+        {
+          "area": "type",
+          "what": "Site title size",
+          "original": "16px",
+          "imported": "16px",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "type",
+          "what": "Site title letter spacing and case",
+          "original": "-0.02em, none",
+          "imported": "-0.02em, none",
+          "ok": true,
+          "weight": 1
+        },
+        {
+          "area": "layout",
+          "what": "Section padding",
+          "original": "124px",
+          "imported": "84px",
+          "ok": false,
+          "fix": "choices.layout.sectionPaddingMobile = 124",
+          "weight": 1
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "heading": "Published Research",
+          "importedIndex": 0,
+          "checks": [
+            {
+              "area": "section",
+              "what": "Background",
+              "original": "#ffffff",
+              "imported": "#fafafa",
+              "ok": true,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Heading",
+              "original": "Instrument Serif 86.2px",
+              "imported": "Instrument Serif 103px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text",
+              "original": "Public Sans 16px",
+              "imported": "Public Sans 14px",
+              "ok": false,
+              "credit": 0,
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Text color",
+              "original": "#000000",
+              "imported": "#000000",
+              "ok": true,
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Columns",
+              "original": "2",
+              "imported": "1",
+              "ok": false,
+              "fix": "Lay the text out in columns (a stack layout with more columns, or the text block's Columns style).",
+              "weight": 2
+            },
+            {
+              "area": "section",
+              "what": "Image placement",
+              "original": "right, 49% wide",
+              "imported": "center, 87% wide",
+              "ok": false,
+              "fix": "Adjust the stack column spans (image column) or the image's side.",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Image crop",
+              "original": "0.95:1",
+              "imported": "0.8:1",
+              "ok": false,
+              "fix": "Use the original's image proportions (the block's aspect ratio).",
+              "weight": 1
+            },
+            {
+              "area": "section",
+              "what": "Height",
+              "original": "1217px",
+              "imported": "3143px",
+              "ok": false,
+              "weight": 1
+            }
+          ],
+          "score": 25
+        }
+      ],
+      "strict": {
+        "score": 53,
+        "exact": 52.61801443297729,
+        "structure": 50,
+        "checks": 50
+      },
+      "visual": 0.605
+    }
+  ]
+}
