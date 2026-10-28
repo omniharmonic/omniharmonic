@@ -1,0 +1,59 @@
+{
+  "$schema": "https://schema.openspace.host/v1/site.json",
+  "title": "omniharmonic",
+  "nav": [
+    {
+      "type": "page",
+      "page": "pg_rhe8s6g9x4",
+      "label": "Home"
+    }
+  ],
+  "header": {
+    "variant": "classic-left",
+    "sticky": false,
+    "transparentOnHero": false,
+    "mobileMenu": "slide"
+  },
+  "footer": {
+    "id": "sec_472kh13nb0",
+    "layout": {
+      "mode": "stack",
+      "columns": {
+        "d": [
+          12
+        ]
+      },
+      "align": "center"
+    },
+    "style": {
+      "colorTheme": "light",
+      "padding": {
+        "d": "md"
+      }
+    },
+    "blocks": [
+      {
+        "id": "blk_83e1cytq7x",
+        "type": "text",
+        "v": 1,
+        "fields": {
+          "content": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "omniharmonic"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "locale": "en"
+}

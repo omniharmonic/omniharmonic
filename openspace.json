@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.openspace.host/v1/site-config.json",
+  "siteId": "st_nxd2eed4ac",
+  "schemaVersion": 1,
+  "template": {
+    "id": "import",
+    "version": "1.0.0"
+  },
+  "hub": "https://hub.openspace.host",
+  "deploy": {
+    "target": "github-pages",
+    "url": "https://omniharmonic.github.io/omniharmonic/",
+    "customDomain": null
+  },
+  "features": {
+    "forms": true,
+    "newsletter": false,
+    "analytics": false,
+    "search": true
+  }
+}

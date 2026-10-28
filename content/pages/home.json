@@ -1,0 +1,83 @@
+{
+  "$schema": "https://schema.openspace.host/v1/page.json",
+  "id": "pg_rhe8s6g9x4",
+  "title": "Home",
+  "slug": "",
+  "seo": {
+    "title": null,
+    "description": "omniharmonic is being set up.",
+    "noindex": true
+  },
+  "sections": [
+    {
+      "id": "sec_08t7s8qh4n",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "align": "center",
+        "width": "narrow"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "xl",
+          "m": "lg"
+        },
+        "minHeight": {
+          "d": "70vh"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_2v0cxee36p",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 1
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "omniharmonic"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_pa4a22nqhx",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "This site is being set up. Please check back soon."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
