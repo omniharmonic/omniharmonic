@@ -68,8 +68,8 @@
       "layout": {
         "mode": "grid",
         "rows": {
-          "d": 21,
-          "m": 56
+          "d": 23,
+          "m": 58
         },
         "items": {
           "blk_qp0fggjh1b": {
@@ -82,7 +82,7 @@
             },
             "m": {
               "x": 1,
-              "y": 1,
+              "y": 12,
               "w": 8,
               "h": 24,
               "z": 7
@@ -98,7 +98,7 @@
             },
             "m": {
               "x": 1,
-              "y": 26,
+              "y": 12,
               "w": 8,
               "h": 23,
               "z": 9
@@ -109,14 +109,14 @@
               "x": 10,
               "y": 9,
               "w": 6,
-              "h": 6,
+              "h": 15,
               "z": 8
             },
             "m": {
               "x": 1,
-              "y": 50,
+              "y": 1,
               "w": 8,
-              "h": 7,
+              "h": 18,
               "z": 8
             }
           },
@@ -130,7 +130,7 @@
             },
             "m": {
               "x": 1,
-              "y": 55,
+              "y": 12,
               "w": 8,
               "h": 1,
               "z": 6
@@ -146,7 +146,7 @@
             },
             "m": {
               "x": 1,
-              "y": 55,
+              "y": 12,
               "w": 8,
               "h": 1,
               "z": 7
@@ -157,6 +157,9 @@
       },
       "style": {
         "colorTheme": "dark",
+        "minHeight": {
+          "d": "40vh"
+        },
         "background": {
           "type": "image",
           "src": "media/2026/10/stocksy-comp-5804492-compressed-0ndp.webp",
@@ -164,9 +167,6 @@
             "color": "#000000",
             "opacity": 0.7
           }
-        },
-        "minHeight": {
-          "d": "40vh"
         }
       },
       "blocks": [
@@ -773,6 +773,9 @@
       },
       "style": {
         "colorTheme": "dark",
+        "minHeight": {
+          "d": "40vh"
+        },
         "background": {
           "type": "image",
           "src": "media/2026/10/stocksy-comp-1456470-q8mv.webp",
@@ -780,9 +783,6 @@
             "color": "#000000",
             "opacity": 0.6
           }
-        },
-        "minHeight": {
-          "d": "40vh"
         }
       },
       "blocks": [
@@ -918,6 +918,7 @@
     },
     {
       "id": "sec_ffmqerhfv0",
+      "preset": "starter/stack-12@1",
       "layout": {
         "mode": "stack",
         "columns": {
@@ -1082,8 +1083,7 @@
             "aspect": "4:5"
           }
         }
-      ],
-      "preset": "starter/stack-12@1"
+      ]
     },
     {
       "id": "sec_e6nmmy3ysd",
@@ -1281,6 +1281,9 @@
       },
       "style": {
         "colorTheme": "dark",
+        "minHeight": {
+          "d": "40vh"
+        },
         "background": {
           "type": "image",
           "src": "media/2026/10/stocksy-comp-1462165-ks8h.webp",
@@ -1288,9 +1291,6 @@
             "color": "#000000",
             "opacity": 0.6
           }
-        },
-        "minHeight": {
-          "d": "40vh"
         }
       },
       "blocks": [

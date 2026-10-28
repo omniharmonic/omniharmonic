@@ -57,16 +57,16 @@
           "lineHeight": 1.16,
           "letterSpacing": 0,
           "case": "none",
-          "font": "heading",
-          "weight": 400
+          "weight": 400,
+          "font": "heading"
         },
         "h4": {
           "size": 17,
           "lineHeight": 1.23,
           "letterSpacing": 0,
           "case": "none",
-          "font": "heading",
-          "weight": 400
+          "weight": 400,
+          "font": "heading"
         },
         "display": {
           "size": 137,
@@ -127,12 +127,12 @@
     "color": {
       "light": {
         "text": {
-          "$type": "color",
-          "$value": "#000000"
+          "$value": "#000000",
+          "$type": "color"
         },
         "heading": {
-          "$type": "color",
-          "$value": "#0f3a48"
+          "$value": "#0f3a48",
+          "$type": "color"
         }
       }
     }

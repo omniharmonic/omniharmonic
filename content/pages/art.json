@@ -34,6 +34,10 @@
       },
       "style": {
         "colorTheme": "dark",
+        "minHeight": {
+          "d": "66vh",
+          "m": "50vh"
+        },
         "background": {
           "type": "image",
           "src": "media/2026/10/unsplash-image-syzfiusqp3q-x5m5.webp",
@@ -41,10 +45,6 @@
             "color": "#000000",
             "opacity": 0.45
           }
-        },
-        "minHeight": {
-          "d": "66vh",
-          "m": "50vh"
         }
       },
       "blocks": [
