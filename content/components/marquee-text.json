@@ -1,0 +1,56 @@
+{
+  "name": "marquee-text",
+  "label": "Scrolling statement",
+  "description": "A giant serif phrase that glides slowly across the page on a loop. Pauses on hover and stays still for people who prefer less motion.",
+  "version": 1,
+  "category": "hero",
+  "fields": {
+    "separator": {
+      "kind": "text",
+      "label": "Divider between repeats",
+      "optional": true
+    },
+    "speed": {
+      "kind": "select",
+      "label": "Speed",
+      "options": [
+        {
+          "value": "slow",
+          "label": "Slow"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "fast",
+          "label": "Fast"
+        }
+      ]
+    },
+    "text": {
+      "kind": "text",
+      "label": "Phrase"
+    }
+  },
+  "defaults": {
+    "separator": "·",
+    "speed": "medium",
+    "text": "I seem to be a verb"
+  },
+  "template": "<div class=\"mq mq--{{speed}}\" role=\"marquee\" aria-label=\"{{text}}\"><div class=\"mq__track\" aria-hidden=\"true\"><div class=\"mq__group\"><span class=\"mq__item\">{{text}}</span><span class=\"mq__sep\">{{separator}}</span><span class=\"mq__item\">{{text}}</span><span class=\"mq__sep\">{{separator}}</span><span class=\"mq__item\">{{text}}</span><span class=\"mq__sep\">{{separator}}</span><span class=\"mq__item\">{{text}}</span><span class=\"mq__sep\">{{separator}}</span></div><div class=\"mq__group\"><span class=\"mq__item\">{{text}}</span><span class=\"mq__sep\">{{separator}}</span><span class=\"mq__item\">{{text}}</span><span class=\"mq__sep\">{{separator}}</span><span class=\"mq__item\">{{text}}</span><span class=\"mq__sep\">{{separator}}</span><span class=\"mq__item\">{{text}}</span><span class=\"mq__sep\">{{separator}}</span></div></div></div>",
+  "css": ":scope{overflow:hidden;color:var(--os-color-heading)}\n.mq{overflow:hidden;padding-block:var(--os-space-4,1.5rem)}\n.mq__track{display:flex;width:max-content;animation:os-mq-scroll 60s linear infinite}\n.mq--slow .mq__track{animation-duration:100s}\n.mq--fast .mq__track{animation-duration:36s}\n.mq:hover .mq__track{animation-play-state:paused}\n.mq__group{display:flex;flex-shrink:0;align-items:baseline}\n.mq__item,.mq__sep{font-family:var(--os-font-heading);font-size:clamp(3rem,8.6vw,8rem);line-height:1.15;letter-spacing:-0.03em;white-space:nowrap}\n.mq__sep{padding-inline:.45em}\n@keyframes os-mq-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}\n@media (max-width:767px){.mq__item,.mq__sep{font-size:clamp(3.25rem,18vw,5rem)}}\n@media (prefers-reduced-motion:reduce){.mq__track{animation:none}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "sm",
+      "m": "sm"
+    },
+    "colorTheme": "brand"
+  },
+  "ai": {
+    "purpose": "A giant, slowly scrolling serif statement used as a rhythm break between sections.",
+    "whenToUse": "Short mantras or taglines (3-8 words) that should feel like a banner.",
+    "avoid": "Long sentences; more than three per page."
+  }
+}

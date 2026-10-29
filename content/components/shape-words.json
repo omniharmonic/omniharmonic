@@ -1,0 +1,64 @@
+{
+  "name": "shape-words",
+  "label": "Shape over photo with words",
+  "description": "A full-width photograph with a solid brand-colour shape (triangle or panel) laid over it, carrying three short words.",
+  "version": 1,
+  "category": "hero",
+  "fields": {
+    "background": {
+      "kind": "image",
+      "label": "Background photo"
+    },
+    "shape": {
+      "kind": "select",
+      "label": "Shape",
+      "options": [
+        {
+          "value": "triangle",
+          "label": "Triangle (words along the bottom)"
+        },
+        {
+          "value": "panel",
+          "label": "Panel (words stacked)"
+        }
+      ]
+    },
+    "wordA": {
+      "kind": "text",
+      "label": "First word"
+    },
+    "wordB": {
+      "kind": "text",
+      "label": "Middle word"
+    },
+    "wordC": {
+      "kind": "text",
+      "label": "Last word"
+    }
+  },
+  "defaults": {
+    "background": {
+      "alt": "",
+      "src": "media/2026/10/stocksy-comp-1456470-q8mv.webp"
+    },
+    "shape": "triangle",
+    "wordA": "systems",
+    "wordB": "&",
+    "wordC": "culture"
+  },
+  "template": "<div class=\"sw sw--{{shape}}\"><div class=\"sw__bg\">{{image background sizes=\"100vw\"}}</div><div class=\"sw__shape\"><span class=\"sw__word\">{{wordA}}</span><span class=\"sw__word\">{{wordB}}</span><span class=\"sw__word\">{{wordC}}</span></div></div>",
+  "css": ".sw{position:relative;display:grid;place-items:center;overflow:hidden;min-height:clamp(24rem,46vw,41rem)}\n.sw__bg{position:absolute;inset:0;overflow:hidden}\n.sw__bg .os-img{position:absolute;inset:0;display:block;width:100%;height:100%}\n.sw__bg picture{position:absolute;inset:0;display:block;width:100%;height:100%}\n.sw__bg img{position:absolute!important;inset:0;display:block;width:100%!important;height:100%!important;max-width:none!important;object-fit:cover}\n.sw__bg::after{content:\"\";position:absolute;inset:0;background:var(--os-color-background);opacity:.22}\n.sw__shape{position:relative;z-index:1;background:var(--os-color-background);color:var(--os-color-heading);display:flex}\n.sw__word{font-family:var(--os-font-body);font-size:1rem;line-height:1.4}\n.sw--triangle .sw__shape{width:min(94vw,41rem);aspect-ratio:1/.9;clip-path:polygon(50% 0,100% 100%,0 100%);flex-direction:row;justify-content:space-between;align-items:flex-end;padding:0 3.5rem 1rem}\n.sw--panel .sw__shape{width:min(86vw,38.5rem);flex-direction:column;justify-content:space-between;align-items:center;padding:1.5rem 1rem;position:absolute;top:1.5rem;bottom:1.5rem;left:50%;transform:translateX(-50%)}\n@media (max-width:767px){.sw{min-height:112vw}.sw--triangle .sw__shape{padding-inline:1.75rem}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none",
+      "m": "none"
+    },
+    "colorTheme": "brand"
+  },
+  "ai": {
+    "purpose": "A solid shape laid over a photograph carrying three short words — a poetic rhythm break.",
+    "whenToUse": "Mid-page statements of three words joined by an ampersand.",
+    "avoid": "Long words or sentences; low-quality photos."
+  }
+}

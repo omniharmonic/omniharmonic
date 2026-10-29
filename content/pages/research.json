@@ -88,46 +88,70 @@
             },
             "text4": "Original research and case studies.",
             "image5": {
-              "src": "media/2026/10/beyond-narrow-optimization-bg0d.webp",
-              "alt": "",
-              "width": 1600,
+              "alt": "Research card: Beyond Narrow Optimization — Reimagining Capital in the Networked Age",
               "height": 2000,
-              "mediaId": "med_bg0dqqs9h6"
+              "src": "media/2026/10/beyond-narrow-optimization-bg0d.webp",
+              "width": 1600
             },
             "image6": {
-              "src": "media/2026/10/2-b192.webp",
-              "alt": "",
-              "width": 1600,
+              "alt": "Research card: Bioregional Coordination — A Hybrid Framework for Network Commons Governance",
               "height": 2000,
-              "mediaId": "med_b1924ska8d"
+              "src": "media/2026/10/2-b192.webp",
+              "width": 1600
             },
             "image7": {
-              "src": "media/2026/10/6-dr2r.webp",
-              "alt": "",
-              "width": 1600,
+              "alt": "Research card: Web3 and the Generative Dynamics of the Metacrisis",
               "height": 2000,
-              "mediaId": "med_dr2rs532ks"
+              "src": "media/2026/10/6-dr2r.webp",
+              "width": 1600
             },
             "image8": {
-              "src": "media/2026/10/3-rvt7.webp",
-              "alt": "",
-              "width": 1600,
+              "alt": "Research card: Compost Capital or Die — The Case for Regenerative Capital Allocation",
               "height": 2000,
-              "mediaId": "med_rvt7xgd73e"
+              "src": "media/2026/10/3-rvt7.webp",
+              "width": 1600
             },
             "image9": {
-              "src": "media/2026/10/4-jmwq.webp",
-              "alt": "",
-              "width": 1600,
+              "alt": "Research card: Ethereum's Future — Evolving Protocol Governance and Public Goods Funding",
               "height": 2000,
-              "mediaId": "med_jmwqxsrvwm"
+              "src": "media/2026/10/4-jmwq.webp",
+              "width": 1600
             },
             "image10": {
-              "src": "media/2026/10/5-m13n.webp",
-              "alt": "",
-              "width": 1600,
+              "alt": "Research card: Credible Neutrality Through Mechanism Design in Dedicated Domain Allocation",
               "height": 2000,
-              "mediaId": "med_m13nnmcrav"
+              "src": "media/2026/10/5-m13n.webp",
+              "width": 1600
+            },
+            "link10": {
+              "newTab": true,
+              "type": "url",
+              "url": "https://docs.google.com/document/d/1cepg2JIlEJjAVhbwTFEYdRQ2q1ukk2ADEnbKqY1OcXM/edit?usp=sharing"
+            },
+            "link5": {
+              "newTab": true,
+              "type": "url",
+              "url": "https://docs.google.com/document/d/1s_SgLm5nhI2MgUTf1fEo1opJgZr4NShUDCt-SRlUUqM/edit?usp=sharing"
+            },
+            "link6": {
+              "newTab": true,
+              "type": "url",
+              "url": "https://docs.google.com/document/d/1x0r01NO4_-xIUfzle6_9rwJbZxDCNgbu1MBzP7X4ckg/edit?usp=sharing"
+            },
+            "link7": {
+              "newTab": true,
+              "type": "url",
+              "url": "https://omniharmonic.github.io/web3metacrisiswiki/Web3-and-the-Generative-Dynamics-of-the-Metacrisis-v04"
+            },
+            "link8": {
+              "newTab": true,
+              "type": "url",
+              "url": "https://docs.google.com/document/d/1O1dC0dlV65_dz1srsJLb3F8zp1dggCs50FNq5QMYJgQ/edit?usp=sharing"
+            },
+            "link9": {
+              "newTab": true,
+              "type": "url",
+              "url": "https://mirror.xyz/omniharmonic.eth/AOZcToqtmJzDa2qQUds_caHy9aH2XfEe36Tf4yIWu30"
             }
           }
         }

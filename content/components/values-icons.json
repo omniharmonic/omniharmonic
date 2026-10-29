@@ -1,0 +1,69 @@
+{
+  "name": "values-icons",
+  "label": "Values with line icons",
+  "description": "A heading above a row of values, each with a small line-art icon, a short title and a sentence.",
+  "version": 1,
+  "category": "about",
+  "fields": {
+    "heading": {
+      "kind": "text",
+      "label": "Heading"
+    },
+    "values": {
+      "kind": "list",
+      "label": "Values",
+      "fields": {
+        "body": {
+          "kind": "text",
+          "label": "Description"
+        },
+        "icon": {
+          "kind": "image",
+          "label": "Icon"
+        },
+        "title": {
+          "kind": "text",
+          "label": "Title"
+        }
+      },
+      "min": 1,
+      "max": 8
+    }
+  },
+  "defaults": {
+    "heading": "Values",
+    "values": [
+      {
+        "body": "Developing social and economic systems in which incentives align with wellbeing.",
+        "icon": {
+          "alt": "",
+          "src": "media/2026/10/icon-01-5bdm.webp"
+        },
+        "title": "Aligned Incentives"
+      },
+      {
+        "body": "Non-rivalrous behaviors formalized through solidarity networks and social organisms.",
+        "icon": {
+          "alt": "",
+          "src": "media/2026/10/icon-02-9b56.webp"
+        },
+        "title": "Civic Culture"
+      }
+    ]
+  },
+  "template": "<div class=\"vi\"><h2 class=\"vi__heading\">{{heading}}</h2><ul class=\"vi__list\">{{#each values}}<li class=\"vi__item\"><div class=\"vi__icon\">{{image icon sizes=\"64px\"}}</div><h3 class=\"vi__title\">{{title}}</h3><p class=\"vi__body\">{{body}}</p></li>{{/each}}</ul></div>",
+  "css": ".vi__heading{font-family:var(--os-font-heading);font-size:clamp(2rem,3vw,2.5rem);line-height:1.2;letter-spacing:-0.01em;font-weight:400;margin:0 0 clamp(1.5rem,3vw,2.75rem);color:var(--os-color-heading)}\n.vi__list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(1.5rem,2.5vw,2.5rem)}\n.vi__icon{width:3.5rem;height:3.5rem;margin-bottom:1.25rem}\n.vi__icon img{display:block;width:100%;height:100%;object-fit:contain}\n.vi__title{font-family:var(--os-font-heading);font-size:1.1rem;line-height:1.25;font-weight:400;margin:0 0 .5rem;color:var(--os-color-heading)}\n.vi__body{font-family:var(--os-font-body);font-size:.9rem;line-height:1.7;margin:0;max-width:22ch;color:var(--os-color-text)}\n@media (max-width:1199px){.vi__list{grid-template-columns:repeat(3,minmax(0,1fr))}}\n@media (max-width:767px){.vi__list{grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem 1.25rem}.vi__body{max-width:none}}",
+  "section": {
+    "width": "wide",
+    "padding": {
+      "d": "md",
+      "m": "sm"
+    },
+    "colorTheme": "brand"
+  },
+  "ai": {
+    "purpose": "A compact row of values or principles, each with a small line-art icon.",
+    "whenToUse": "3-8 short principles that have their own icons.",
+    "avoid": "Long descriptions (keep under 20 words)."
+  }
+}

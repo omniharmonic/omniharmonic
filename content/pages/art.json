@@ -5,6 +5,9 @@
   "seo": {
     "image": "media/2026/10/the-arc-3-copy-zc55.webp"
   },
+  "header": {
+    "transparentOnHero": false
+  },
   "sections": [
     {
       "id": "sec_2gm2s56vhs",
@@ -34,17 +37,17 @@
       },
       "style": {
         "colorTheme": "dark",
+        "minHeight": {
+          "d": "66vh",
+          "m": "50vh"
+        },
         "background": {
           "type": "image",
           "src": "media/2026/10/unsplash-image-syzfiusqp3q-x5m5.webp",
           "overlay": {
-            "color": "#000000",
-            "opacity": 0.45
+            "color": "#0f3a48",
+            "opacity": 0.55
           }
-        },
-        "minHeight": {
-          "d": "66vh",
-          "m": "50vh"
         }
       },
       "blocks": [
@@ -85,14 +88,14 @@
       "layout": {
         "mode": "grid",
         "rows": {
-          "d": 2,
+          "d": 8,
           "m": 11
         },
         "items": {
           "blk_ev8g76ncby": {
             "d": {
               "x": 1,
-              "y": 1,
+              "y": 4,
               "w": 6,
               "h": 2,
               "z": 1
@@ -108,7 +111,7 @@
           "blk_anvacv7tnn": {
             "d": {
               "x": 7,
-              "y": 1,
+              "y": 4,
               "w": 6,
               "h": 2,
               "z": 2
@@ -124,7 +127,7 @@
           "blk_t5qk9ncy9h": {
             "d": {
               "x": 19,
-              "y": 1,
+              "y": 4,
               "w": 6,
               "h": 2,
               "z": 4
@@ -140,7 +143,7 @@
           "blk_xfzt6w89w3": {
             "d": {
               "x": 13,
-              "y": 1,
+              "y": 4,
               "w": 6,
               "h": 2,
               "z": 3
@@ -157,7 +160,14 @@
         "width": "wide"
       },
       "style": {
-        "colorTheme": "dark-accent"
+        "colorTheme": "light",
+        "minHeight": {
+          "d": "46vh"
+        },
+        "background": {
+          "type": "color",
+          "color": "#8fb4de"
+        }
       },
       "blocks": [
         {
@@ -171,7 +181,8 @@
                 {
                   "type": "heading",
                   "attrs": {
-                    "level": 4
+                    "level": 2,
+                    "preset": "h3"
                   },
                   "content": [
                     {
@@ -209,7 +220,8 @@
                 {
                   "type": "heading",
                   "attrs": {
-                    "level": 4
+                    "level": 2,
+                    "preset": "h3"
                   },
                   "content": [
                     {
@@ -247,7 +259,8 @@
                 {
                   "type": "heading",
                   "attrs": {
-                    "level": 4
+                    "level": 2,
+                    "preset": "h3"
                   },
                   "content": [
                     {
@@ -285,7 +298,8 @@
                 {
                   "type": "heading",
                   "attrs": {
-                    "level": 4
+                    "level": 2,
+                    "preset": "h3"
                   },
                   "content": [
                     {

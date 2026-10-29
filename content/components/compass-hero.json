@@ -1,0 +1,96 @@
+{
+  "name": "compass-hero",
+  "label": "Compass hero",
+  "description": "A full-width photograph with a round panel in the centre holding the emblem, and four pill links placed at the points of the compass.",
+  "version": 1,
+  "category": "hero",
+  "fields": {
+    "background": {
+      "kind": "image",
+      "label": "Background photo"
+    },
+    "bottomLabel": {
+      "kind": "text",
+      "label": "Bottom link text"
+    },
+    "bottomLink": {
+      "kind": "link",
+      "label": "Bottom link"
+    },
+    "emblem": {
+      "kind": "image",
+      "label": "Emblem"
+    },
+    "leftLabel": {
+      "kind": "text",
+      "label": "Left link text"
+    },
+    "leftLink": {
+      "kind": "link",
+      "label": "Left link"
+    },
+    "rightLabel": {
+      "kind": "text",
+      "label": "Right link text"
+    },
+    "rightLink": {
+      "kind": "link",
+      "label": "Right link"
+    },
+    "topLabel": {
+      "kind": "text",
+      "label": "Top link text"
+    },
+    "topLink": {
+      "kind": "link",
+      "label": "Top link"
+    }
+  },
+  "defaults": {
+    "background": {
+      "alt": "",
+      "src": "media/2026/10/stocksy-comp-5804492-compressed-0ndp.webp"
+    },
+    "bottomLabel": "research",
+    "bottomLink": {
+      "type": "url",
+      "url": "/research/"
+    },
+    "emblem": {
+      "alt": "Circle emblem with four petals and radial lines",
+      "src": "media/2026/10/the-arc-3-white-j0ww.webp"
+    },
+    "leftLabel": "art",
+    "leftLink": {
+      "type": "url",
+      "url": "/art/"
+    },
+    "rightLabel": "code",
+    "rightLink": {
+      "newTab": true,
+      "type": "url",
+      "url": "https://github.com/omniharmonic"
+    },
+    "topLabel": "writing",
+    "topLink": {
+      "newTab": true,
+      "type": "url",
+      "url": "https://omniharmonic.substack.com"
+    }
+  },
+  "template": "<div class=\"cp\"><div class=\"cp__bg\">{{image background sizes=\"100vw\"}}</div><div class=\"cp__circle\"><div class=\"cp__emblem\">{{image emblem sizes=\"240px\"}}</div>{{#link topLink}}<span class=\"cp__label cp__label--top\">{{topLabel}}</span>{{/link}}{{#link leftLink}}<span class=\"cp__label cp__label--left\">{{leftLabel}}</span>{{/link}}{{#link rightLink}}<span class=\"cp__label cp__label--right\">{{rightLabel}}</span>{{/link}}{{#link bottomLink}}<span class=\"cp__label cp__label--bottom\">{{bottomLabel}}</span>{{/link}}</div></div>",
+  "css": ".cp{position:relative;display:grid;place-items:center;overflow:hidden}\n.cp__bg{position:absolute;inset:0;overflow:hidden}\n.cp__bg .os-img{position:absolute;inset:0;display:block;width:100%;height:100%}\n.cp__bg picture{position:absolute;inset:0;display:block;width:100%;height:100%}\n.cp__bg img{position:absolute!important;inset:0;display:block;width:100%!important;height:100%!important;max-width:none!important;object-fit:cover}\n.cp__bg::after{content:\"\";position:absolute;inset:0;background:var(--os-color-background);opacity:.18}\n.cp__circle{position:relative;z-index:1;width:min(88vw,40rem);aspect-ratio:1/1;border-radius:50%;background:var(--os-color-background);color:var(--os-color-heading)}\n.cp__emblem{position:absolute;top:50%;left:50%;width:26%;transform:translate(-50%,-50%)}\n.cp__emblem .os-img,.cp__emblem picture{position:static;display:block;width:100%}\n.cp__emblem img{display:block;width:100%;height:auto}\n.cp__label{position:absolute;display:inline-block;padding:.05em .75em .15em;border:1.5px solid currentColor;border-radius:999px;font-family:var(--os-font-body);font-size:1rem;line-height:1.4;color:var(--os-color-heading);text-decoration:none;white-space:nowrap;transition:background-color .2s,color .2s}\n.cp__label--top{top:5%;left:50%;transform:translateX(-50%)}\n.cp__label--bottom{bottom:5%;left:50%;transform:translateX(-50%)}\n.cp__label--left{left:6%;top:50%;transform:translateY(-50%)}\n.cp__label--right{right:6%;top:50%;transform:translateY(-50%)}\na:hover .cp__label,a:focus-visible .cp__label{background:var(--os-color-heading);color:var(--os-color-background)}\na:focus-visible{outline:none}\n@media (max-width:767px){.cp{min-height:118vw}.cp__circle{width:98vw}.cp__emblem{width:50%}.cp__label{font-size:.95rem;padding-inline:.6em}.cp__label--left{left:4%}.cp__label--right{right:4%}}\n@media (prefers-reduced-motion:reduce){.cp__label{transition:none}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none",
+      "m": "none"
+    },
+    "colorTheme": "brand"
+  },
+  "ai": {
+    "purpose": "An emblem-in-a-circle opening with four navigation pills around it, over a photograph.",
+    "whenToUse": "The first section of a home page that routes visitors to four main areas.",
+    "avoid": "More than four links; long link labels."
+  }
+}

@@ -5,6 +5,60 @@
   "version": 1,
   "category": "imported",
   "fields": {
+    "image10": {
+      "kind": "image",
+      "label": "Picture 6"
+    },
+    "image5": {
+      "kind": "image",
+      "label": "Picture 1"
+    },
+    "image6": {
+      "kind": "image",
+      "label": "Picture 2"
+    },
+    "image7": {
+      "kind": "image",
+      "label": "Picture 3"
+    },
+    "image8": {
+      "kind": "image",
+      "label": "Picture 4"
+    },
+    "image9": {
+      "kind": "image",
+      "label": "Picture 5"
+    },
+    "link10": {
+      "kind": "link",
+      "label": "Link for picture 6",
+      "optional": true
+    },
+    "link5": {
+      "kind": "link",
+      "label": "Link for picture 1",
+      "optional": true
+    },
+    "link6": {
+      "kind": "link",
+      "label": "Link for picture 2",
+      "optional": true
+    },
+    "link7": {
+      "kind": "link",
+      "label": "Link for picture 3",
+      "optional": true
+    },
+    "link8": {
+      "kind": "link",
+      "label": "Link for picture 4",
+      "optional": true
+    },
+    "link9": {
+      "kind": "link",
+      "label": "Link for picture 5",
+      "optional": true
+    },
     "text1": {
       "kind": "text",
       "label": "Heading",
@@ -41,30 +95,6 @@
       "label": "Paragraph “Original research and…”",
       "maxLength": 1500,
       "multiline": true
-    },
-    "image5": {
-      "kind": "image",
-      "label": "Picture 1"
-    },
-    "image6": {
-      "kind": "image",
-      "label": "Picture 2"
-    },
-    "image7": {
-      "kind": "image",
-      "label": "Picture 3"
-    },
-    "image8": {
-      "kind": "image",
-      "label": "Picture 4"
-    },
-    "image9": {
-      "kind": "image",
-      "label": "Picture 5"
-    },
-    "image10": {
-      "kind": "image",
-      "label": "Picture 6"
     }
   },
   "defaults": {
@@ -147,8 +177,8 @@
       "alt": ""
     }
   },
-  "template": "<div class=\"gx\">\n  <h2 class=\"gx__i gx__i1\">{{text1}}</h2>\n  <div class=\"gx__i gx__i2\">{{rich text2}}</div>\n  <div class=\"gx__i gx__i3\">{{rich text3}}</div>\n  <p class=\"gx__i gx__i4\">{{text4}}</p>\n  <div class=\"gx__i gx__i5 gx__img\">{{image image5 sizes=\"(max-width: 767px) 100vw, 31vw\"}}</div>\n  <div class=\"gx__i gx__i6 gx__img\">{{image image6 sizes=\"(max-width: 767px) 100vw, 31vw\"}}</div>\n  <div class=\"gx__i gx__i7 gx__img\">{{image image7 sizes=\"(max-width: 767px) 100vw, 31vw\"}}</div>\n  <div class=\"gx__i gx__i8 gx__img\">{{image image8 sizes=\"(max-width: 767px) 100vw, 31vw\"}}</div>\n  <div class=\"gx__i gx__i9 gx__img\">{{image image9 sizes=\"(max-width: 767px) 100vw, 31vw\"}}</div>\n  <div class=\"gx__i gx__i10 gx__img\">{{image image10 sizes=\"(max-width: 767px) 100vw, 31vw\"}}</div>\n</div>",
-  "css": ":scope { width: min(100%, 1360px); margin-inline: auto; }\n.gx { display: grid; grid-template-columns: repeat(24, minmax(0, 1fr)); grid-auto-rows: minmax(8px, auto); column-gap: 0; }\n.gx__i { position: relative; z-index: 1; margin: 0; min-width: 0; overflow-wrap: break-word; }\n.gx__i p { margin: 0; }\n.gx__p { z-index: 0; }\n.gx__img picture, .gx__img img { display: block; width: 100%; height: 100%; object-fit: cover; }\n.gx__i1 { grid-column: 1 / span 17; grid-row: 1 / span 17; font-family: var(--os-font-heading); font-size: 128.3px; font-weight: 400; line-height: 1.04; letter-spacing: -0.03em; color: var(--os-color-text); }\n.gx__i2 { grid-column: 19 / span 6; grid-row: 1 / span 11; font-family: var(--os-font-label); font-size: 16px; font-weight: 400; line-height: 1.8; letter-spacing: -0.02em; color: var(--os-color-text); }\n.gx__i3 { grid-column: 19 / span 6; grid-row: 13 / span 7; font-family: var(--os-font-label); font-size: 16px; font-weight: 400; line-height: 1.8; letter-spacing: -0.02em; color: var(--os-color-text); }\n.gx__i4 { grid-column: 1 / span 17; grid-row: 22 / span 4; font-family: var(--os-font-label); font-size: 16px; font-weight: 400; line-height: 1.8; letter-spacing: -0.02em; color: var(--os-color-text); }\n.gx__i5 { grid-column: 1 / span 8; grid-row: 32 / span 49; aspect-ratio: 446 / 391; }\n.gx__i6 { grid-column: 9 / span 8; grid-row: 32 / span 49; aspect-ratio: 446 / 391; }\n.gx__i7 { grid-column: 17 / span 8; grid-row: 32 / span 49; aspect-ratio: 446 / 391; }\n.gx__i8 { grid-column: 1 / span 8; grid-row: 82 / span 49; aspect-ratio: 446 / 391; }\n.gx__i9 { grid-column: 9 / span 8; grid-row: 82 / span 49; aspect-ratio: 446 / 391; }\n.gx__i10 { grid-column: 17 / span 8; grid-row: 82 / span 49; aspect-ratio: 446 / 391; }\n@media (max-width: 767px) {\n  .gx { display: flex; flex-direction: column; gap: var(--os-space-sm); }\n  .gx__i1 { font-family: var(--os-font-heading); font-size: 103px; }\n  .gx__i2 { font-family: var(--os-font-label); font-size: 14px; }\n  .gx__i3 { font-family: var(--os-font-label); font-size: 14px; }\n  .gx__i4 { font-family: var(--os-font-label); font-size: 14px; }\n}",
+  "template": "<div class=\"gx\">\n  <h2 class=\"gx__i gx__i1\">{{text1}}</h2>\n  <div class=\"gx__i gx__i2\">{{rich text2}}</div>\n  <div class=\"gx__i gx__i3\">{{rich text3}}</div>\n  <p class=\"gx__i gx__i4\">{{text4}}</p>\n  <div class=\"gx__i gx__i5 gx__img\">{{#link link5}}{{image image5 sizes=\"(max-width: 767px) 100vw, 31vw\"}}{{/link}}</div>\n  <div class=\"gx__i gx__i6 gx__img\">{{#link link6}}{{image image6 sizes=\"(max-width: 767px) 100vw, 31vw\"}}{{/link}}</div>\n  <div class=\"gx__i gx__i7 gx__img\">{{#link link7}}{{image image7 sizes=\"(max-width: 767px) 100vw, 31vw\"}}{{/link}}</div>\n  <div class=\"gx__i gx__i8 gx__img\">{{#link link8}}{{image image8 sizes=\"(max-width: 767px) 100vw, 31vw\"}}{{/link}}</div>\n  <div class=\"gx__i gx__i9 gx__img\">{{#link link9}}{{image image9 sizes=\"(max-width: 767px) 100vw, 31vw\"}}{{/link}}</div>\n  <div class=\"gx__i gx__i10 gx__img\">{{#link link10}}{{image image10 sizes=\"(max-width: 767px) 100vw, 31vw\"}}{{/link}}</div>\n</div>",
+  "css": ":scope { width: min(100%, 1360px); margin-inline: auto; }\n.gx { display: grid; grid-template-columns: repeat(24, minmax(0, 1fr)); grid-auto-rows: minmax(8px, auto); column-gap: 0; }\n.gx__i { position: relative; z-index: 1; margin: 0; min-width: 0; overflow-wrap: break-word; }\n.gx__i p { margin: 0; }\n.gx__img { overflow: hidden; border-radius: 1.75rem; margin: 5px; }\n.gx__img a { position: absolute; inset: 0; display: block; z-index: 2; }\n.gx__img a:focus-visible { outline: 3px solid var(--os-color-accent); outline-offset: -3px; border-radius: inherit; }\n.gx__img .os-img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }\n.gx__img picture { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }\n.gx__img img { position: absolute !important; inset: 0; display: block; width: 100% !important; height: 100% !important; max-width: none !important; object-fit: cover; object-position: 50% 0; transition: opacity .2s; }\n.gx__img a:hover img { opacity: .9; }\n.gx__i1 { grid-column: 1 / span 17; grid-row: 1 / span 17; font-family: var(--os-font-heading); font-size: 128.3px; font-weight: 400; line-height: 1.04; letter-spacing: -0.03em; color: var(--os-color-text); }\n.gx__i2 { grid-column: 19 / span 6; grid-row: 1 / span 11; font-family: var(--os-font-label); font-size: 16px; font-weight: 400; line-height: 1.8; letter-spacing: -0.02em; color: var(--os-color-text); }\n.gx__i3 { grid-column: 19 / span 6; grid-row: 13 / span 7; font-family: var(--os-font-label); font-size: 16px; font-weight: 400; line-height: 1.8; letter-spacing: -0.02em; color: var(--os-color-text); }\n.gx__i4 { grid-column: 1 / span 17; grid-row: 22 / span 4; font-family: var(--os-font-label); font-size: 16px; font-weight: 400; line-height: 1.8; letter-spacing: -0.02em; color: var(--os-color-text); }\n.gx__i5 { grid-column: 1 / span 8; grid-row: 32; aspect-ratio: 446 / 391; }\n.gx__i6 { grid-column: 9 / span 8; grid-row: 32; aspect-ratio: 446 / 391; }\n.gx__i7 { grid-column: 17 / span 8; grid-row: 32; aspect-ratio: 446 / 391; }\n.gx__i8 { grid-column: 1 / span 8; grid-row: 33; aspect-ratio: 446 / 391; }\n.gx__i9 { grid-column: 9 / span 8; grid-row: 33; aspect-ratio: 446 / 391; }\n.gx__i10 { grid-column: 17 / span 8; grid-row: 33; aspect-ratio: 446 / 391; }\n@media (max-width: 767px) {\n  .gx { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: auto; gap: 0.7rem; }\n  .gx .gx__i { grid-column: 1 / -1; grid-row: auto; }\n  .gx .gx__i1 { order: 0; font-size: clamp(2.5rem, 13vw, 3.25rem); line-height: 1.05; margin-bottom: 0.5rem; }\n  .gx .gx__i4 { order: 1; font-size: 16px; margin-bottom: 1rem; }\n  .gx .gx__i2 { order: 2; font-size: 16px; }\n  .gx .gx__i3 { order: 3; font-size: 16px; margin-bottom: 0.5rem; }\n  .gx .gx__img { grid-column: auto; grid-row: auto; margin: 0; width: 100%; aspect-ratio: 19 / 20; border-radius: 2.25rem; }\n  .gx .gx__i8 { order: 10; }\n  .gx .gx__i7 { order: 11; }\n  .gx .gx__i10 { order: 12; }\n  .gx .gx__i5 { order: 13; }\n  .gx .gx__i6 { order: 14; }\n  .gx .gx__i9 { order: 15; }\n}\n@media (prefers-reduced-motion: reduce) { .gx__img img { transition: none; } }",
   "section": {
     "width": "wide"
   }

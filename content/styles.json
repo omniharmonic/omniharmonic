@@ -30,16 +30,16 @@
       },
       "scale": {
         "h1": {
-          "size": 149.1,
-          "sizeMobile": 91.6,
-          "lineHeight": 1.4,
+          "size": 149,
+          "sizeMobile": 60,
+          "lineHeight": 1.05,
           "letterSpacing": -0.03,
           "case": "none",
           "weight": 400
         },
         "h2": {
-          "size": 19.5,
-          "sizeMobile": 86.2,
+          "size": 108,
+          "sizeMobile": 52,
           "lineHeight": 1.04,
           "letterSpacing": -0.03,
           "case": "none",
@@ -53,34 +53,35 @@
           "case": "none"
         },
         "h3": {
-          "size": 17.8,
-          "lineHeight": 1.16,
-          "letterSpacing": 0,
+          "size": 40,
+          "sizeMobile": 30,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.01,
           "case": "none",
-          "font": "heading",
-          "weight": 400
+          "weight": 400,
+          "font": "heading"
         },
         "h4": {
           "size": 17,
           "lineHeight": 1.23,
           "letterSpacing": 0,
           "case": "none",
-          "font": "heading",
-          "weight": 400
+          "weight": 400,
+          "font": "heading"
         },
         "display": {
           "size": 137,
-          "sizeMobile": 91.6,
-          "lineHeight": 1.4,
+          "sizeMobile": 60,
+          "lineHeight": 1.05,
           "letterSpacing": -0.03,
           "case": "none",
           "weight": 400
         },
         "lead": {
-          "size": 41.9,
-          "sizeMobile": 32.2,
-          "lineHeight": 1.32,
-          "letterSpacing": -0.03,
+          "size": 42,
+          "sizeMobile": 30,
+          "lineHeight": 1.25,
+          "letterSpacing": -0.02,
           "case": "none",
           "font": "heading"
         },
@@ -127,12 +128,12 @@
     "color": {
       "light": {
         "text": {
-          "$type": "color",
-          "$value": "#000000"
+          "$value": "#000000",
+          "$type": "color"
         },
         "heading": {
-          "$type": "color",
-          "$value": "#0f3a48"
+          "$value": "#0f3a48",
+          "$type": "color"
         }
       }
     }

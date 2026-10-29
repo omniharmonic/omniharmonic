@@ -1,0 +1,51 @@
+{
+  "name": "edge-divider",
+  "label": "Section edge (wave or slant)",
+  "description": "A thin decorative strip placed between two sections that turns the straight seam into a gentle wave or a slanted cut.",
+  "version": 1,
+  "category": "divider",
+  "fields": {
+    "above": {
+      "kind": "color",
+      "label": "Colour of the section above"
+    },
+    "below": {
+      "kind": "color",
+      "label": "Colour of the section below"
+    },
+    "shape": {
+      "kind": "select",
+      "label": "Shape",
+      "options": [
+        {
+          "value": "wave",
+          "label": "Wave"
+        },
+        {
+          "value": "slant",
+          "label": "Slanted cut"
+        }
+      ]
+    }
+  },
+  "defaults": {
+    "above": "background",
+    "below": "accent",
+    "shape": "wave"
+  },
+  "template": "<div class=\"ed ed--{{shape}}\" style=\"--ed-above: {{color above}}; --ed-below: {{color below}}\" aria-hidden=\"true\"><svg class=\"ed__svg ed__svg--wave\" viewBox=\"0 0 1440 80\" preserveAspectRatio=\"none\" focusable=\"false\"><path d=\"M0 41 C130 24 230 4 330 4 C560 4 760 76 960 76 C1150 76 1300 49 1440 41 L1440 0 L0 0 Z\"/></svg><svg class=\"ed__svg ed__svg--slant\" viewBox=\"0 0 1440 80\" preserveAspectRatio=\"none\" focusable=\"false\"><path d=\"M0 0 L1440 0 L1440 78 Z\"/></svg></div>",
+  "css": ":scope{line-height:0}\n.ed{display:block;position:relative;height:clamp(2.5rem,5.5vw,5rem);background:var(--ed-below)}\n.ed__svg{position:absolute;inset:0;width:100%;height:100%;display:none;fill:var(--ed-above)}\n.ed--wave .ed__svg--wave{display:block}\n.ed--slant .ed__svg--slant{display:block}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none",
+      "m": "none"
+    },
+    "colorTheme": "light"
+  },
+  "ai": {
+    "purpose": "A decorative wave or slanted seam between two sections of different colours.",
+    "whenToUse": "Between a light and a dark band, to soften or energise the transition.",
+    "avoid": "Between sections of the same colour; stacking several in a row."
+  }
+}
